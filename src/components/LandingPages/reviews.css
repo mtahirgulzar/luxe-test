@@ -1,0 +1,255 @@
+.reviews-section {
+    background-color: #0f9E82;
+    color: white;
+    text-align: center;
+    position: relative; /* Add this to position the arrows */
+  }
+
+.reviews-counter {
+    display: inline-block;
+    /* font-size: 48px; */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.reviews-title {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.testimonials-title {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.review {
+    width: 300px;
+    /* Adjust as needed */
+    margin: 0 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.review-text {
+    quotes: "“" "”" "‘" "’";
+    font-size: 16px;
+    width: 600px;
+    max-width: 80vw;
+    margin:auto;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.review-text:before {
+    content: open-quote;
+}
+
+.review-text:after {
+    content: close-quote;
+}
+.testimonial-text {
+    quotes: "“" "”" "‘" "’";
+    font-size: 18px;
+    width: 600px;
+    max-width: 80vw;
+    margin:auto;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+
+.review-author {
+    /* font-style: italic; */
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.testimonial-author {
+    /* font-style: italic; */
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.reviews-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    /* Adjust spacing as needed */
+}
+
+.reviews-navigation>button {
+    background-color: transparent;
+    /* Or a subtle background color */
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.reviews-navigation>button:hover {
+    opacity: 0.7;
+    /* Adjust hover effect as needed */
+}
+
+.reviews-navigation>button:before,
+.reviews-navigation>button:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+    /* Match arrow color */
+}
+
+.reviews-navigation>button:before {
+    margin-right: 5px;
+    /* Adjust spacing between arrows */
+    transform: rotate(-45deg);
+}
+
+.reviews-navigation>button:after {
+    transform: rotate(45deg);
+}
+
+.reviews-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray; /* Adjust dot color */
+    margin: 0 5px;
+    cursor: pointer; /* Enable hover interactions if needed */
+  }
+  
+  .reviews-indicator::marker {
+    content: "";
+    background-color: transparent; /* Remove default dot marker */
+  }
+
+  .review-hr{
+    width:45px;
+    border: .5px solid;
+    margin-bottom: 5px;
+  }
+
+  .arrow-icon {
+    cursor: pointer;
+    fill: white; /* Adjust the fill color as necessary */
+    width: 25px; /* Adjust the size as necessary */
+    height: auto;
+  }
+/*   
+  .arrow-left, .arrow-right {
+    cursor: pointer;
+    fill: white;
+   
+    transform-origin: center;
+    height: 30px;
+    width: 30px;
+  } */
+  
+  
+  /* .reviews-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+
+.review-text-container {
+    margin: 0 20px; /* Adjust as needed */
+}
+
+
+.review-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    /* padding: 0 20px; */
+  }
+  
+  .reviews-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    cursor: pointer;
+    fill: white;
+    transform-origin: center;
+    height: 30px;
+    width: 30px;
+    position: absolute; /* Position the arrows absolutely */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical centering */
+  }
+  
+  .arrow-left {
+    left: 50px; /* Adjust the left position as needed */
+  }
+  
+  .arrow-right {
+    right: 50px; /* Adjust the right position as needed */
+  }
+
+  .testimonial-image {
+    max-height: 50vh;
+    margin-top: 20px;
+    max-width: 80vw;
+    width: auto;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .arrow-left {
+        left: 5px; /* Adjust the left position as needed */
+      }
+      
+      .arrow-right {
+        right: 5px; /* Adjust the right position as needed */
+      }
+
+      .reviews-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+      }
+
+
+.testimonials-title {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+  }

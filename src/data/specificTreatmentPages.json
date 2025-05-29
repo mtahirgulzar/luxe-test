@@ -1,0 +1,83 @@
+[{
+  "name": "luxe-myers-drip",
+  "path": "luxe-myers-drip",
+  "title": "Luxe Myers Drip | Luxe Mobile IV",
+  "introHead": "REVITALIZE YOUR BODY WITH THE LUXE MYERS COCKTAIL",
+  "introDesc": "Elevate your wellness with our nutrient-rich IV infusion.",
+  "ctaBenefits": "ESSENTIAL VITAMINS & MINERALS | BOOST ENERGY & IMMUNITY | ENHANCE OVERALL WELLBEING",
+  "benefitsSubtext": "Experience the transformative power of the Myers Cocktail.",
+  "seoTitle": "Luxe Myers Drip | Luxe Mobile IV",
+  "helmet": {
+    "title": "Luxe Myers Drip | Luxe Mobile IV",
+    "description": "Revitalize your body and mind with our powerful Myers Cocktail IV infusion. Packed with essential vitamins and minerals, this treatment will boost your energy, strengthen your immunity, and enhance your overall wellness."
+  },
+  "tombstoneImage": "myers.webp",
+  "seoDescription": "Elevate your wellness with the Luxe Myers Drip. Our advanced IV infusion delivers a potent blend of vitamins and minerals to revitalize your body and mind. Book your appointment now and experience the transformative benefits of the Myers Cocktail.",
+  "treatmentUuid": "624c8299-c1c3-47a7-8d65-414f388b1034",
+  "ingredients": [
+    {
+      "name": "Vitamin C",
+      "description": "Boosts immune system and promotes collagen production."
+    },
+    {
+      "name": "B-Complex Vitamins",
+      "description": "Supports energy metabolism and nervous system function."
+    },
+    {
+      "name": "Vitamin B12",
+      "description": "Aids in red blood cell formation and neurological function."
+    },
+    {
+      "name": "Magnesium",
+      "description": "Supports muscle and nerve function, and helps regulate heart rhythm."
+    },
+    {
+      "name": "Calcium",
+      "description": "Essential for strong bones and proper muscle function."
+    },
+    {
+      "name": "Zinc",
+      "description": "Supports immune system and promotes wound healing."
+    }
+  ]
+},
+{
+"name": "luxe-migraine-drip",
+"path": "luxe-migraine-drip",
+"title": "Luxe Migraine Drip | Luxe Mobile IV",
+"introHead": "FAST RELIEF FOR MIGRAINES AND PMS SYMPTOMS",
+"introDesc": "Find effective, immediate relief with our specially formulated migraine IV drip.",
+"ctaBenefits": "HYDRATION & ELECTROLYTES | PAIN RELIEF | NAUSEA REDUCTION",
+"benefitsSubtext": "Get back to feeling your best with our targeted migraine treatment.",
+"seoTitle": "Luxe Migraine Drip | Luxe Mobile IV",
+"helmet": {
+"title": "Luxe Migraine Drip | Luxe Mobile IV",
+"description": "Experience fast relief from migraines and PMS symptoms with our specially formulated IV drip. Packed with hydration, electrolytes, and pain-relieving ingredients, this treatment will help you get back to feeling your best."
+},
+"tombstoneImage": "migraine.webp",
+"seoDescription": "Find effective, immediate relief from migraines and PMS symptoms with the Luxe Migraine Drip. Our advanced IV infusion delivers targeted hydration and pain-relieving ingredients to help you feel better fast. Book your appointment now and get back to your day.",
+"ingredients": [
+{
+"name": "Saline Solution",
+"description": "Provides full hydration and helps restore electrolyte balance."
+},
+{
+"name": "Magnesium",
+"description": "Helps relax blood vessels and reduce migraine pain."
+},
+{
+"name": "Toradol",
+"description": "Non-steroidal anti-inflammatory drug (NSAID) for pain relief."
+},
+{
+"name": "Zofran",
+"description": "Anti-nausea medication to alleviate migraine-related nausea and vomiting."
+},
+{
+"name": "B-Complex Vitamins",
+"description": "Supports energy metabolism and nervous system function."
+}
+],
+"link": "/city/ae58fd13-4ae7-49f5-b74a-95711d899cc5",
+"price": "$185"
+}]

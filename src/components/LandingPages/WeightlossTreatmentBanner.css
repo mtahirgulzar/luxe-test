@@ -1,0 +1,82 @@
+.weight-loss-options {
+    text-align: center;
+    background-color: rgb(15, 158, 130);
+    color: white;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+  
+  .card {
+    width: 400px;
+    max-width: 80vw;
+    border: 2px solid white;
+    border-radius: 0px;
+    padding: 16px;
+    margin: 6px 0;
+    text-align: left;
+  }
+  
+  .card h3,
+  .card p {
+    padding-left: 15px;
+  }
+  
+  .card h3{
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  .weight-loss-options button {
+    margin: auto;
+    width: 140px;
+    margin-left: 15px;
+    padding: 10px 5px !important;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 15px; */
+  }
+  
+  .bookOnlineButtonWeightloss {
+    /* margin: 8px 0; */
+    width: calc(50% - 10px);
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: #FF4040;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .bookOnlineButtonWeightloss:hover {
+    border: 2px solid rgba(0, 0, 0, 1);
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease, visibility 0s;
+  }
+  
+  @media (min-width: 768px) {
+    .cards {
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 35px;
+    }
+    .weight-loss-options button {
+      margin: auto;
+      width: 160px;
+      margin-left: 15px;
+      padding: 10px 5px !important;
+    }
+  
+    .card {
+      margin: 0 16px;
+    }
+  }

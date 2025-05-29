@@ -1,0 +1,74 @@
+.side-effects {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0px;
+  }
+  
+  .side-effects h2 {
+    /* margin-bottom: 10px; */
+  }
+  
+  .card-grid-side-effects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    max-width: 1000px;
+    margin: auto;
+    
+  }
+  
+  .card-side-effects {
+    background-color: #ffffff;
+    font-weight: 200;
+    /* border-radius: 8px; */
+    /* padding: 20px; */
+    max-width: 225px;
+    margin: auto;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .card-header-side-effects {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkmark-side-effects {
+    color: #0f9e82;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .card-side-effects h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 0px;
+  }
+  
+  .card-content-side-effects {
+    font-size: 16px;
+    line-height: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0px;
+  }
+  
+  .card-content-side-effects.expanded {
+    -webkit-line-clamp: unset;
+  }
+  
+  .read-more-side-effects {
+    background: none;
+    border: none;
+    color: #0f9e82;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 0;
+    text-decoration: underline;
+  }

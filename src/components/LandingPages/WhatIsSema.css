@@ -1,0 +1,60 @@
+.what-is-sema {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-wrapper {
+    max-width: 90vw;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0px;
+  }
+  
+  @media (min-width: 1200px) {
+    .content-wrapper {
+      max-width: 900px;
+    }
+  }
+  
+  .greenTitle {
+    color: #0f9e82;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .bullet-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bullet-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-weight: 200;
+  }
+  
+  .checkmark-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #0f9e82;
+    color: #0f9e82;
+    background-color: white;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .bullet-text {
+    flex: 1;
+  }
+  
+  .bullet-heading {
+    font-weight: 600;
+  }
+  

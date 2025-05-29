@@ -1,0 +1,255 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  height: 75px;
+  /* padding: 8px 16px; */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.navbar-logo {
+  height: 60px;
+  margin-left: 12%;
+}
+
+.navbar-logo-img {
+  height: 60px;
+}
+
+/* Hide desktop-only elements by default */
+.desktop-only {
+  display: none;
+}
+
+.navbar-text-links {
+  display: flex;
+  align-items: center;
+  
+}
+
+.dropdown {
+  position: relative;
+  margin-right: 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  top: 100%;
+  text-align: right;
+  width: 350px;
+}
+.dropdown-content a {
+  display: block; /* This will put each link on its own line */
+  color: rgb(15, 158, 130); /* Text color */
+  text-decoration: none; /* Remove underline from links */
+}
+.dropdown-content a:hover {
+  color: black; /* Color for hover state */
+  /* background-color: #e8e8e8; */
+}
+
+.dropdown-content a:not(:last-child) {
+  border-bottom: 1px solid rgb(15, 158, 130);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigationToggle {
+  display: block; 
+  cursor: pointer;
+  z-index: 1000; 
+  position: fixed;
+  right: 16px; 
+  outline: 2px solid black;
+  padding: 5px 5px 1px;
+  /* top: 16px;  */
+}
+
+.navbar-buttons {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.navbar-links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #FF4040;
+  color:white;
+  font-size: 15px;
+  margin-right: 50px;
+  font-weight: 400;
+}
+
+.navbar-button:hover{
+  border: 2px solid rgba(0, 0, 0, 1);
+  background-color: white;
+  color:black;
+  transition: all 0.2s ease, visibility 0s;
+}
+
+.navbar-text-links{
+   font-size: 24px;
+   font-weight: 200;
+  color: rgb(15, 158, 130);
+  margin-left: 55px;
+}
+
+.navbar-text-links a{
+  margin:10px;
+  text-decoration: none;
+  color: rgb(15, 158, 130);
+}
+
+.navbar-menu.closed {
+  display: none;
+}
+
+.line {
+  background-color: rgb(85,85,85); 
+  height: 2.5px;
+  margin-bottom: 5px;
+  width: 30px; 
+  display: block; 
+}
+
+.navbar-menu {
+  flex-direction: column; 
+}
+
+.navbar-menu.expanded {
+  display: flex;
+  position: absolute;
+  top: 40px; 
+  left: 0;
+  width: 98vw;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  z-index: 999; 
+  text-align: right; 
+  padding-right: 22px;
+  flex-direction: column;
+  box-shadow: 0 8px 10px -5px rgb(0 0 0 / 16%);
+}
+
+.navbar-menu a:not(:last-child) {
+  border-bottom: 1px solid rgb(15, 158, 130);
+}
+
+.navbar-menu a{
+  font-weight: 200;
+  display: block; 
+  padding: 0px 15px; 
+  color: rgb(15, 158, 130); 
+  text-decoration: none; 
+}
+
+.navbar-menu p{
+  font-weight: 800;
+  color: rgb(15, 158, 130); 
+  display: block; 
+  padding: 0px 15px; 
+  margin: 0px; 
+  text-decoration: none; 
+}
+
+.desktop-only {
+  display: none;
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1051px) {
+  .navbar {
+    height: 75px;
+  }
+  
+  .navbar-logo {
+    height: 60px;
+    margin-left: 12%;
+  }
+  
+  .navbar-logo-img {
+    height: 60px;
+  }
+  
+  .desktop-only {
+    display: flex;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 100px;
+  }
+  
+  .navbar-button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 222px;
+    background-color: #FF4040;
+    color:white;
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: 400;
+  }
+  
+  .navbar-button:hover{
+    border: 2px solid rgba(0, 0, 0, 1);
+    background-color: white;
+    color:black;
+    transition: all 0.2s ease, visibility 0s;
+  }
+
+  .navbar-menu.expanded {
+    top: 65px; 
+  }
+  .navbar-button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 222px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: #FF4040;
+    color:white;
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: 400;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 1050px) {
+  .navbar {
+    height: 40px;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    margin-left: 0%;
+  }
+  
+  .navbar-logo-img {
+    height: 40px;
+  }
+}

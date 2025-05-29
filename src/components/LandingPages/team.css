@@ -1,0 +1,112 @@
+.team {
+    background-color: #ffffff;
+    /* padding: 50px 0; */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .team-section {
+    display: flex;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center; /* or 'flex-start' depending on alignment preference */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap:40px;
+  }
+
+  
+  .team-member {
+    text-align: left;
+    background-color: #0F9E82;
+    border-radius: 1px;
+    /* margin: auto; */
+    margin-bottom: 20px;
+    padding: 0px;
+    color: #fff;
+    width: 400px; /* Set fixed width for cards */
+    height: fit-content; /* Allow content to determine card height */
+    flex-grow: 1; /* Allow cards to share available space */
+    line-height: 1.4;
+    max-width: 40vw;
+  }
+  .team-title{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .team-name{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .team-description{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 90vw;
+    padding-bottom: 40px;
+  }
+  
+  .team-member img {
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 90vw;
+  }
+  
+  .team-member h3,
+  .team-member h4,
+  .team-member p {
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .team-section {
+      flex-direction: column;
+    }
+    
+    .team-member img {
+      width: 130px !important;
+      height: 125px !important;
+      object-fit: cover !important;
+      
+      /* object-position: 50% 50% !important; */
+    }
+    #team .gatsby-image-wrapper {
+      width: 130px !important;
+      height: 125px !important;
+      object-fit: cover !important;
+      object-position: 50% 50% !important;
+      margin:auto;
+    }
+
+    .team-member {
+      /* width: 30px; Set fixed width for cards */
+      width:85vw;
+      margin-bottom: 20px;
+      max-width: 90vw; /* Remove fixed width on mobile */
+      padding-top: 5px;
+      min-height:400px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .team-name{
+      padding-top: 10px;
+    }
+  }
+  
+  .team h2 {
+    font-size: 2em; /* Adjust as needed */
+  }

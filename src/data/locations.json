@@ -1,0 +1,75 @@
+{
+  "austin": {
+    "googleBusinessUrl": "https://maps.app.goo.gl/9r1qSh142Mc9JREW8",
+    "address": {
+      "streetAddress": "Austin Location",
+      "addressLocality": "Austin",
+      "addressRegion": "TX",
+      "postalCode": "78701",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Su 07:00-22:00",
+    "areaServed": [
+      "Austin, TX",
+      "Round Rock, TX",
+      "Cedar Park, TX",
+      "Leander, TX",
+      "Pflugerville, TX",
+      "Georgetown, TX",
+      "Lakeway, TX",
+      "Bee Cave, TX",
+      "West Lake Hills, TX",
+      "Buda, TX"
+    ]
+  },
+  "rgv": {
+    "googleBusinessUrl": "https://www.google.com/maps/place/Luxe+Mobile+IV+RGV/@26.2801145,-98.1695738,838m/data=!3m2!1e3!4b1!4m6!3m5!1s0xa8e3f233930f3625:0xb4511e462a00b768!8m2!3d26.2801145!4d-98.1669989!16s%2Fg%2F11khrx0mtv?entry=ttu",
+    "address": {
+      "streetAddress": "2260 S Business Hwy 281 Suite 20",
+      "addressLocality": "Edinburg",
+      "addressRegion": "TX",
+      "postalCode": "78539",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Su 09:00-18:00",
+    "areaServed": [
+      "McAllen, TX",
+      "Edinburg, TX",
+      "Mission, TX",
+      "Pharr, TX",
+      "Weslaco, TX",
+      "Harlingen, TX",
+      "Brownsville, TX",
+      "San Juan, TX",
+      "Alamo, TX",
+      "Donna, TX",
+      "Mercedes, TX",
+      "La Feria, TX"
+    ]
+  },
+  "houston": {
+    "googleBusinessUrl": "https://maps.app.goo.gl/jd8kmuE7QzHk8WeU9",
+    "address": {
+      "streetAddress": "4635 Southwest Freeway",
+      "addressLocality": "Houston",
+      "addressRegion": "TX",
+      "postalCode": "77027",
+      "addressCountry": "US"
+    },
+    "openingHours": "Mo-Su 07:00-22:00",
+    "areaServed": [
+      "Houston, TX",
+      "Katy, TX",
+      "Sugar Land, TX",
+      "Missouri City, TX",
+      "Bellaire, TX",
+      "Richmond, TX",
+      "Stafford, TX",
+      "Pearland, TX",
+      "West University Place, TX",
+      "The Woodlands, TX",
+      "Spring, TX",
+      "Cypress, TX"
+    ]
+  }
+} 

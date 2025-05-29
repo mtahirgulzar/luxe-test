@@ -1,0 +1,226 @@
+{"treatmentsData":[
+    {
+    "title": "Weight Loss Treatments | Luxe Mobile IV",
+    "description": "Next Generation of weight loss injections, make weight loss easier. FDA approved.",
+    "imageUrl": "weightloss.webp",
+    "link": "/weightloss",
+    "treatments":[],
+    "path": "weight-loss-treatments",
+    "name": "weight-loss-treatments",
+    "helmet":{},
+    "seoDescription":"Feel better, faster with Luxe Mobile IV. From hangovers to colds, migraines, and more, our advanced IV medicine will help you recover. Treatments listed here."
+  },
+  {
+    "title": "Sickness Treatments | Luxe Mobile IV",
+    "description": "For Cold, Flu, and Headaches: charge your immune system and get fast symptom relief.",
+    "imageUrl": "sickness.webp",
+    "link": "/sickness",
+    "treatments":[
+        {
+          "title": "Cold/Flu Drip",
+          "description": "Full hydration and effective, immediate treatments for your cold and flu symptoms: fatigue, body aches, chills, and fever.",
+          "imageUrl": "cold.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/5f9d9a09-8bb6-4488-b33e-d018fd545a26",
+          "price": "$185"
+        },{
+          "title": "Migraine Drip",
+          "description": "Full hydration and treatment for effective, immediate relief for migraines and symptoms.",
+          "imageUrl": "migraine.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/ae58fd13-4ae7-49f5-b74a-95711d899cc5",
+          "price": "$185"
+        },{
+          "title": "Immunity Drip",
+          "description": "Stay proactive with the immunity drip, packed with essential vitamins to optimize your immune response.",
+          "imageUrl": "immunity.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/42663e40-0791-46b9-b518-fb3cbfa84e9d",
+          "price": "$185"
+        },{
+          "title": "Help Me Choose",
+          "description": "Not sure what the best drip is for you? Talk with one of our nurses on-site and get an expert opinion. Treatments are customized to your needs. No additional price, starting at $150.",
+          "imageUrl": "nurse.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/e6e5985a-0441-4ad3-a62b-0ab9af163c41",
+          "price": "$150+"
+        }],
+        "path": "sickness-treatments",
+        "name": "sickness-treatments",
+        "helmet":{},
+        "seoDescription":"Feel better, faster with Luxe Mobile IV. Our advanced IV treatment will help you recover from cold, flu, migraines, and more. Treatments listed here."
+  },
+  {
+    "title": "NAD+ Treatments | Luxe Mobile IV",
+    "description": "Rejuvenate your body and mind with NAD+ IV therapy and injections. Enhance energy, focus, and overall cellular health.",
+    "imageUrl": "nadtomb.webp",
+    "link": "/nad-treatments",
+    "treatments": [
+        {
+          "title": "NAD+ Shots",
+          "description": "Quick and effective NAD+ injections (100–250 mg) to boost energy, improve focus, and enhance overall cellular health.",
+          "imageUrl": "nadsmall.webp",
+          "ingredients": "NAD+, B vitamins, and other essential nutrients",
+          "link": "/city/f31bdb0e-c00b-40ef-ae85-0516d98e39da",
+          "price": "$150+"
+        },
+        {
+          "title": "NAD+ IV Drip",
+          "description": "Maximize NAD+ absorption through IV therapy. Starting at 250 mg, with additional NAD+ for $75 per 100 mg up to 1000 mg total.",
+          "imageUrl": "nad.webp",
+          "ingredients": "NAD+, electrolytes, and hydration support",
+          "link": "/city/ab3aaf64-24d9-476f-ade8-427f9b90ccd7",
+          "price": "$150+"
+        }
+    ],
+    "path": "nad-treatments",
+    "name": "nad-treatments",
+    "helmet": {},
+    "seoDescription": "Recharge your body and mind with NAD+ IV therapy and injections from Luxe Mobile IV. Boost energy, focus, and cellular health with our advanced treatments."
+},
+  {
+    "title": "Hangover Relief Treatments | Luxe Mobile IV",
+    "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+    "imageUrl": "hangover.webp",
+    "link": "/city/27aec72e-36ac-4aad-b769-b70c46759d6a",
+    "treatments":[{
+        "title": "Hangover Relief",
+        "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+        "imageUrl": "hangover.webp",
+        "link": "/city/27aec72e-36ac-4aad-b769-b70c46759d6a",
+        "price": "$185"
+      },{
+        "title": "Hangover Relief Plus",
+        "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+        "imageUrl": "hangover.webp",
+        "link": "/city/98f4db9d-8089-448b-ad93-664f2473c2bd",
+        "price": "$250"
+      }],
+
+      "path": "hangover-treatments",
+      "name": "hangover-treatments",
+      "helmet":{},
+      "seoDescription":"Get your hangover treated at home with Luxe Mobile IV. Our advanced IV treatment will help you recover from nausea, headaches, and weakness. Treatments listed here."
+  },
+  {
+    "title": "Advanced Medicine Treatments | Luxe Mobile IV",
+    "description": "NAD+, Myers Advanced Treatments, and other offerings.",
+    "imageUrl": "advanced.webp",
+    "link": "/advanced-medicine",
+    "treatments":[
+        {
+        "title": "Myers Cocktail Drip",
+        "description": "Recharge energy, enhance immunity, and support overall wellness with the Myers Cocktail.",
+        "imageUrl": "myers.webp",
+        "ingredients":"lots of good stuff",
+        "link": "/city/624c8299-c1c3-47a7-8d65-414f388b1034",
+        "price": "$250"
+      },{
+        "title": "Luxe Super Drip",
+        "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+        "imageUrl": "super.webp",
+        "ingredients":"lots of good stuff",
+        "link": "/city/f1adb47c-e5de-43ae-93b1-a1abbeeb47fb",
+        "price":"$200"
+      },{
+        "title": "NAD+",
+        "description": "Full hydration plus NAD+ to help support anti-aging processes, optimize brain function, and promote overall vitality.",
+        "imageUrl": "nad.webp",
+        "ingredients":"250mg NAD, Saline Solution. More NAD available upon request.",
+        "link": "/city/520f2ce2-babc-490a-8f9b-c136c3810d47",
+        "price":"$250"
+      },{
+        "title": "Beauty Drip",
+        "description": "Full hydration plus add-ons to help rejuvenate skin health and enhance wellbeing with the Beauty Drip.",
+        "imageUrl": "beauty.webp",
+        "ingredients":"lots of good stuff",
+        "link": "/city/8ab4e9e0-730a-44bb-80ff-2d0958c7d11a",
+        "price":"$185"
+      },{
+        "title": "Slim Drip",
+        "description": "Full hydration plus add-ons to help boost metabolism, support weight management, and energize with the Slim Drip.",
+        "imageUrl": "slim.webp",
+        "ingredients":"lots of good stuff",
+        "link": "/city/247a3b48-e539-49d5-8c34-2b8d984af8db",
+        "price":"$185"
+      },{
+        "title": "Help Me Choose",
+        "description": "Not sure what the best drip is for you? Talk with one of our nurses on-site and get an expert opinion. Treatments are customized to your needs. No additional price, starting at $150.",
+        "imageUrl": "nurse.webp",
+        "ingredients":"lots of good stuff",
+        "link": "/city/2c3001f3-d010-4091-8d09-a93e1bbedb96",
+        "price": "$150+"
+      }],
+      "path": "advanced-medicine-treatments",
+      "name": "advanced-medicine-treatments",
+      "helmet":{},
+      "seoDescription":"Experience transformative wellness with our proprietary IV blends specially designed to help support your different aspects of your health. Treatments listed here."
+  },
+  {
+    "title": "Workplace Hydration Treatments | Luxe Mobile IV",
+    "description": "Keep your team working at maximum potential during extreme heat. Group discounts.",
+    "imageUrl": "workplace.webp",
+    "link": "/workplacehydration",
+    "treatments":[
+        {
+          "title": "Luxe Full Hydration IV",
+          "description": "Full hydration to help with dehydration. Add-ons available upon request during Physician consultation.",
+          "imageUrl": "workplace.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/aa3681eb-af2e-46ff-b631-050034120c50",
+          "price": "$150"
+        },{
+          "title": "Luxe Group Hydration IV (10+)",
+          "description": "Hydrate your team on-site. Our group service combats dehydration symptoms, with customizable add-ons during consultation. Ideal for construction, HVAC, and other active jobsite workers.",
+          "imageUrl": "workplace.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/72b8e3ad-5b61-40b4-87b2-c7e1989a0dc0",
+          "price": "$145"
+        }],
+        "path": "workplace-hydration-treatments",
+        "name": "workplace-hydration-treatments",
+        "helmet":{},
+        "seoDescription":"Professional IV hydration for high-intensity groups, providing rapid relief from dehydration and enabling quick return to peak performance. Treatments listed here."
+  },
+  {
+    "title": "Hydration Treatments | Luxe Mobile IV",
+    "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+    "imageUrl": "hydration.webp",
+    "link": "/hydration",
+    "treatments":[
+        {
+          "title": "Hydration Drip",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageUrl": "hydration.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/aa3681eb-af2e-46ff-b631-050034120c50",
+          "price": "$150"
+        },{
+          "title": "Group Hydration Drip (10+)",
+          "description": "Hydrate your team on-site. Combats dehydration with customizable add-ons during consult.",
+          "imageUrl": "grouphydration.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/72b8e3ad-5b61-40b4-87b2-c7e1989a0dc0",
+          "price": "$145"
+        },{
+          "title": "Luxe Super Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "super.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/f1adb47c-e5de-43ae-93b1-a1abbeeb47fb",
+          "price": "$200"
+        },{
+          "title": "Athletic Recovery Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "athletic.webp",
+          "ingredients":"lots of good stuff",
+          "link": "/city/a57e8094-340c-46b7-987e-f5debbeb1a0a",
+          "price": "$200"
+        }
+        ],
+        "path" : "hydration-treatments",
+        "name": "hydration-treatments",
+        "helmet":{},
+        "seoDescription":"Hydrate and feel better with Luxe Mobile IV. Our advanced IV hydration treatment will help you recover from dehydration and weakness. Treatments listed here."
+  }]
+}

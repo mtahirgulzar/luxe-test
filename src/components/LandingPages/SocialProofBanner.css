@@ -1,0 +1,27 @@
+.social-proof-banner p {
+    font-weight: 300;
+  }
+  
+  .star-rating {
+    display: block;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .stars img {
+    width: 105px;
+    height: 105px;
+    margin: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .networkIcon img{
+        height: 65px !important;
+        height: 65px !important;
+    }
+  }

@@ -1,0 +1,78 @@
+.exceptional-medicine {
+    text-align: center;
+  }
+  
+  .exceptional-medicine__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .exceptional-medicine__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid on desktop */
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .exceptional-medicine__card {
+    display: flex;
+    flex-direction: row; /* Keeps items side by side */
+    align-items: center; /* Vertically center the content */
+    gap: 20px; /* Space between icon and text content */
+  }
+  
+  .exceptional-medicine__icon {
+    /* Add styles for your icons here */
+    margin-bottom: 20px;
+  }
+  
+  .exceptional-medicine__icon img {
+    width: 80px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 30px;
+  }
+
+  .exceptional-medicine__content {
+    display: flex;
+    flex-direction: column; /* Stack subheading and text */
+  }
+  
+
+  .exceptional-medicine__subheading {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#0f9E82;
+    margin-bottom: 0px;
+  }
+  
+  .exceptional-medicine__text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+  
+  .exceptional-medicine__subheading,
+.exceptional-medicine__text {
+  text-align: left; /* Ensure text is aligned to the left */
+}
+@media (max-width: 768px) {
+  .exceptional-medicine__icon img {
+    margin-left: 30px;
+    width: 50px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .exceptional-medicine__grid {
+    grid-template-columns: repeat(1, 1fr); /* 4x1 column on mobile */
+  }
+  .exceptional-medicine__text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 20px;
+  }
+}
+

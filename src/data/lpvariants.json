@@ -1,0 +1,977 @@
+{
+  "lpVariants": [
+    {
+      "name": "homepage",
+      "phoneNumber": "+18329797034",
+      "path": "home",
+      "title": "Luxe Mobile IV",
+      "introHead": "ADVANCED MOBILE IV THERAPY AT YOUR HOME",
+      "treatHead": "Mobile IV Treatment Options",
+      "introDesc": "Feel better, faster with Luxe Mobile IV.",
+      "ctaBenefits": "7AM-10PM, FROM $150 | APPOINTMENTS WITHIN 1 HOUR | FSA/HSA ACCEPTED",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Mobile IV Therapy at Your Doorstep | Luxe Mobile IV",
+      "helmet": {},
+      "tombstoneImage": "tombstone.webp",
+      "tombstoneAlt": "Luxe Mobile IV",
+      "seoDescription": "Feel better, faster with Luxe Mobile IV Therapy. From hangovers to colds, migraines, and more, our advanced IV medicine will help you recover.",
+      "treatmentsData": [
+        {
+          "title": "Sickness",
+          "description": "For Cold, Flu, and Headaches: charge your immune system and get fast symptom relief.",
+          "imageName": "sickness",
+          "link": "/sickness/"
+        },
+        {
+          "title": "Hangover Relief",
+          "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+          "imageName": "hangover",
+          "link": "/hangover/"
+        },
+        {
+          "title": "Advanced Medicine",
+          "description": "NAD+, Myers Advanced Treatments, and other offerings.",
+          "imageName": "advanced",
+          "link": "/advanced-medicine/"
+        },
+        {
+          "title": "NAD+ Shots and IV's",
+          "description": "Boost Energy, Enhance Focus, and Support Cellular Regeneration with NAD+ Therapy.",
+          "imageName": "nadsmall",
+          "link": "/nad/"
+        },
+        {
+          "title": "Hydration Drips",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageName": "hydration",
+          "link": "/hydration/"
+        }
+      ]
+    },
+    {
+      "name": "houston",
+      "phoneNumber": "+18329797034",
+      "path": "houston",
+      "title": "Luxe Mobile IV Houston",
+      "introHead": "ADVANCED IV THERAPY AT YOUR HOME",
+      "introDesc": "Feel better, faster with Luxe Mobile IV. Serving Houston and surrounding areas.",
+      "ctaBenefits": "7AM-10PM, FROM $150 | APPOINTMENTS WITHIN 1 HOUR | FSA/HSA ACCEPTED",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Mobile IV & IV Therapy at Your Doorstep | Luxe Mobile IV Houston",
+      "helmet": {},
+      "tombstoneImage": "tombstone.webp",
+      "seoDescription": "Feel better, faster with Luxe Mobile IV in Houston. From hangovers to colds, migraines, and more, our advanced IV medicine will help you recover.",
+      "treatmentsData": [
+        {
+          "title": "Sickness",
+          "description": "For Cold, Flu, and Headaches: charge your immune system and get fast symptom relief.",
+          "imageName": "sickness",
+          "link": "/sickness/houston/"
+        },
+        {
+          "title": "Hangover Relief",
+          "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+          "imageName": "hangover",
+          "link": "/hangover/houston/"
+        },
+        {
+          "title": "Advanced Medicine",
+          "description": "NAD+, Myers Advanced Treatments, and other offerings.",
+          "imageName": "advanced",
+          "link": "/advanced-medicine/houston/"
+        },
+        {
+          "title": "NAD+ Shots and IV's",
+          "description": "Boost Energy, Enhance Focus, and Support Cellular Regeneration with NAD+ Therapy.",
+          "imageName": "nadsmall",
+          "link": "/nad/houston/"
+        },
+        {
+          "title": "Hydration Drips",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageName": "hydration",
+          "link": "/hydration/houston/"
+        },
+        {
+          "title": "Weight Loss",
+          "description": "Next Generation of weight loss injections, make weight loss easier. FDA approved.",
+          "imageName": "weightloss",
+          "link": "/weightloss/houston/"
+        }
+      ]
+    },
+    {
+      "name": "maddisonville",
+      "phoneNumber": "+18329797034",
+      "path": "maddisonville",
+      "title": "Luxe Mobile IV Maddisonville",
+      "introHead": "ADVANCED IV MEDICINE AT YOUR HOME",
+      "introDesc": "Feel better, faster with Luxe Mobile IV. Serving Madisonville and surrounding areas. ",
+      "ctaBenefits": "7AM-10PM, FROM $150 | APPOINTMENTS WITHIN 1 HOUR | FSA/HSA ACCEPTED",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Home | Luxe Mobile IV | Madisonville",
+      "helmet": {},
+      "tombstoneImage": "tombstone.webp",
+      "seoDescription": "Feel better, faster with Luxe Mobile IV in Madisonville. From hangovers to colds, migraines, and more, our advanced IV medicine will help you recover.",
+      "treatmentsData": [
+        {
+          "title": "Sickness",
+          "description": "For Cold, Flu, and Headaches: charge your immune system and get fast symptom relief.",
+          "imageName": "sickness",
+          "link": "/sickness/maddisonville/"
+        },
+        {
+          "title": "Hangover Relief",
+          "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+          "imageName": "hangover",
+          "link": "/hangover/maddisonville/"
+        },
+        {
+          "title": "Advanced Medicine",
+          "description": "NAD+, Myers Advanced Treatments, and other offerings.",
+          "imageName": "advanced",
+          "link": "/advanced-medicine/maddisonville/"
+        },
+        {
+          "title": "NAD+ Shots and IV's",
+          "description": "Boost Energy, Enhance Focus, and Support Cellular Regeneration with NAD+ Therapy.",
+          "imageName": "nadsmall",
+          "link": "/nad/maddisonville/"
+        },
+        {
+          "title": "Hydration Drips",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageName": "hydration",
+          "link": "/hydration/maddisonville/"
+        },
+        {
+          "title": "Weight Loss",
+          "description": "Next Generation of weight loss injections, make weight loss easier. FDA approved.",
+          "imageName": "weightloss",
+          "link": "/weightloss/maddisonville/"
+        }
+      ]
+    },
+    {
+      "name": "austin",
+      "path": "austin",
+      "title": "Luxe Mobile IV - Austin",
+      "phoneNumber": "+17373258075",
+      "introHead": "ADVANCED IV THERAPY AT YOUR HOME",
+      "introDesc": "Feel better, faster with Luxe Mobile IV. Serving Austin and surrounding areas.",
+      "ctaBenefits": "8AM-8PM, FROM $150 | APPOINTMENTS WITHIN 1 HOUR | FSA/HSA ACCEPTED",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Mobile IV & IV Therapy at Your Doorstep | Luxe Mobile IV Austin",
+      "helmet": {},
+      "tombstoneImage": "tombstone.webp",
+      "seoDescription": "Feel better, faster with Luxe Mobile IV in Austin. From hangovers to colds, migraines, and more, our advanced IV medicine will help you recover.",
+      "treatmentsData": [
+        {
+          "title": "Sickness",
+          "description": "For Cold, Flu, and Headaches: charge your immune system and get fast symptom relief.",
+          "imageName": "sickness",
+          "link": "/sickness/austin/"
+        },
+        {
+          "title": "Hangover Relief",
+          "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+          "imageName": "hangover",
+          "link": "/hangover/austin/"
+        },
+        {
+          "title": "Advanced Medicine",
+          "description": "NAD+, Myers Advanced Treatments, and other offerings.",
+          "imageName": "advanced",
+          "link": "/advanced-medicine/austin/"
+        },
+        {
+          "title": "NAD+ Shots and IV's",
+          "description": "Boost Energy, Enhance Focus, and Support Cellular Regeneration with NAD+ Therapy.",
+          "imageName": "nadsmall",
+          "link": "/nad/austin/"
+        },
+        {
+          "title": "Hydration Drips",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageName": "hydration",
+          "link": "/hydration/austin/"
+        },
+        {
+          "title": "Weight Loss",
+          "description": "Next Generation of weight loss injections, make weight loss easier. FDA approved.",
+          "imageName": "weightloss",
+          "link": "/weightloss/austin/"
+        }
+      ]
+    },
+    {
+      "name": "rgv",
+      "phoneNumber": "+19564318240",
+      "path": "rgv",
+      "title": "Luxe Mobile IV RGV",
+      "introHead": "ADVANCED IV THERAPY AT YOUR HOME",
+      "introDesc": "At Luxe Mobile IV RGV, we're committed to elevating your health and wellness experience with superior ingredients, convenience, and care, tailored precisely to your needs and schedule.",
+      "ctaBenefits": "9AM-8PM M-F, 9AM-6PM Sa/Su, FROM $150 | APPOINTMENTS WITHIN 1 HOUR | FSA/HSA ACCEPTED",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Mobile IV & IV Therapy at Your Doorstep | Luxe Mobile IV Rio Grande Valley",
+      "helmet": {},
+      "tombstoneImage": "rgvteam.jpeg",
+      "seoDescription": "Feel better, faster with Luxe Mobile IV in RGV. From hangovers to colds, migraines, and more, our advanced IV medicine will help you recover.",
+      "treatmentsData": [
+        {
+          "title": "Sickness",
+          "description": "For Cold, Flu, and Headaches: charge your immune system and get fast symptom relief.",
+          "imageName": "sickness",
+          "link": "/sickness/rgv/"
+        },
+        {
+          "title": "Hangover Relief",
+          "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+          "imageName": "hangover",
+          "link": "/hangover/rgv/"
+        },
+        {
+          "title": "Advanced Medicine",
+          "description": "NAD+, Myers Advanced Treatments, and other offerings.",
+          "imageName": "advanced",
+          "link": "/advanced-medicine/rgv/"
+        },
+        {
+          "title": "NAD+ Shots and IV's",
+          "description": "Boost Energy, Enhance Focus, and Support Cellular Regeneration with NAD+ Therapy.",
+          "imageName": "nadsmall",
+          "link": "/nad/rgv/"
+        },
+        {
+          "title": "Hydration Drips",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageName": "hydration",
+          "link": "/hydration/rgv/"
+        },
+        {
+          "title": "Weight Loss",
+          "description": "Next Generation of weight loss injections, make weight loss easier. FDA approved.",
+          "imageName": "weightloss",
+          "link": "/weightloss/rgv/"
+        }
+      ]
+    },
+    {
+      "name": "hangover",
+      "phoneNumber": "+18329797034",
+      "path": "hangover",
+      "title": "Luxe Mobile IV",
+      "introHead": "IV Drip For Hangover at Home in 30 Minutes",
+      "treatHead": "Effective Hangover IV Drip Treatments for Fast Recovery",
+      "introDesc": "An ER nurse comes to your house and administers advanced IV medicine to help you recover and treat serious symptoms including nausea, head aches, & weakness.",
+      "ctaBenefits": "$185 | 7 am to 11 pm | Arrival Within 1 hour of Booking*",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Best Mobile IV Drip For Hangover | Book Your Appointment Now",
+      "helmet": {},
+      "tombstoneImage": "hangovertomb",
+      "tombstoneAlt": "hangover iv therapy",
+      "seoDescription": "Get fast relief with mobile IV drip therapy for hangovers. Rehydrate, refresh, and recover at home or on the go. Book your hangover IV treatment now!",
+      "treatmentsData": [
+        {
+          "title": "Hangover Relief",
+          "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+          "imageUrl": "hangover.webp",
+          "link": "/city/27aec72e-36ac-4aad-b769-b70c46759d6a",
+          "price": "$185"
+        },
+        {
+          "title": "Hangover Relief Plus",
+          "description": "Advanced formulation hydration treatment with additional options to assist with nausea, headaches, and other symptoms.",
+          "imageUrl": "hangover+.webp",
+          "link": "/city/98f4db9d-8089-448b-ad93-664f2473c2bd",
+          "price": "$250"
+        }
+      ],
+      "treatmentsPage": "city/27aec72e-36ac-4aad-b769-b70c46759d6a",
+      "faqData": [
+        {
+          "question": "How does mobile IV therapy help with hangovers?",
+          "answer": "It rehydrates your body, replenishes lost nutrients, and eases symptoms like headache, nausea, and fatigue."
+        },
+        {
+          "question": "How long does a hangover IV drip take?",
+          "answer": "Most IV drips take 30–45 minutes for full hydration and relief."
+        },
+        {
+          "question": "Can I get IV therapy at home or a hotel?",
+          "answer": "Yes! Luxe Mobile IV comes to your location—home, hotel, or office."
+        },
+        {
+          "question": "Is it safe to get a hangover IV drip?",
+          "answer": "Yes, it's administered by licensed medical professionals and tailored to your needs."
+        },
+        {
+          "question": "When should I book my hangover IV treatment?",
+          "answer": "You can book same-day appointments—we offer fast, convenient relief when you need it."
+        }
+      ]
+    },
+    {
+      "name": "advanced-medicine",
+      "phoneNumber": "+18329797034",
+      "path": "advanced-medicine",
+      "title": "Luxe Mobile IV",
+      "introHead": "Experience IV Therapy at Home for Better Health and Wellness",
+      "treatHead": "Advanced IV Treatments: Myers Cocktail, Beauty Drips & Skin Brightening Solutions",
+      "introDesc": "Experience transformative wellness with our proprietary IV blends specially designed to help support your different aspects of your health.",
+      "ctaBenefits": "7am to 11 pm | Arrival within 1 HOUR of Booking",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Advanced IV Therapy : Myers Cocktail IV, Beauty Drip, Skin Lightening & More",
+      "helmet": {},
+      "tombstoneImage": "tombstone.webp",
+      "tombstoneAlt": "iv therapy",
+      "seoDescription": "Experience Advanced IV Therapy with Myers Cocktail Drip, Beauty Drip, Skin Lightening & more. Boost skin health, hydration & brightness today!",
+      "treatmentsData": [
+        {
+          "title": "Myers Cocktail Drip",
+          "description": "Recharge energy, enhance immunity, and support overall wellness with the Myers Cocktail.",
+          "imageUrl": "myers.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/624c8299-c1c3-47a7-8d65-414f388b1034",
+          "price": "$250"
+        },
+        {
+          "title": "Luxe Super Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "super.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/f1adb47c-e5de-43ae-93b1-a1abbeeb47fb",
+          "price": "$200"
+        },
+        {
+          "title": "Beauty Drip",
+          "description": "Full hydration plus add-ons to help rejuvenate skin health and enhance wellbeing with the Beauty Drip.",
+          "imageUrl": "beauty.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/8ab4e9e0-730a-44bb-80ff-2d0958c7d11a",
+          "price": "$185"
+        },
+        {
+          "title": "Beauty Plus Drip",
+          "description": "Experience full hydration combined with premium add-ons crafted to revitalize skin health and elevate your overall wellbeing with the Beauty Plus Drip.",
+          "imageUrl": "beauty+.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/22c6f708-4517-4c33-8720-7ca5b82eb742",
+          "price": "$250"
+        },
+        {
+          "title": "Help Me Choose",
+          "description": "Not sure what the best drip is for you? Talk with one of our nurses on-site and get an expert opinion. Treatments are customized to your needs. No additional cost.",
+          "imageUrl": "nurse.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/2c3001f3-d010-4091-8d09-a93e1bbedb96",
+          "price": "$150+"
+        }
+      ],
+      "treatmentsPage": "advanced-medicine-treatments"
+    },
+    {
+      "name": "weightloss",
+      "phoneNumber": "+18329797034",
+      "path": "weightloss",
+      "title": "Luxe Mobile IV",
+      "introHead": " LOSE AN AVERAGE OF 30 LBS!",
+      "introDesc": "No insurance approval needed. Cancel anytime. FDA approved. In stock. FHA eligible. Multiple GLP-1 options to make weight loss easy.",
+      "ctaBenefits": "",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Weight Loss Injections | Luxe Mobile IV",
+      "helmet": {},
+      "tombstoneImage": "altweightloss",
+      "seoDescription": "Achieve your weight loss goals with Luxe Mobile IV's advanced GLP-1 therapies. Our personalized, at-home treatments offer a convenient and effective approach to sustainable weight management. Feel better, look great, faster.",
+      "treatmentsData": [
+        {
+          "title": "Weight Loss",
+          "description": "Next Generation of weight loss injections, make weight loss easier. FDA approved.",
+          "imageUrl": "weightloss.webp",
+          "link": "/weightloss"
+        },
+        {
+          "title": "Sickness",
+          "description": "For Cold, Flu, and Headaches: charge your immune system and get fast symptom relief.",
+          "imageUrl": "sickness.webp",
+          "link": "/sickness/"
+        },
+        {
+          "title": "Hangover Relief",
+          "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+          "imageUrl": "hangover.webp",
+          "link": "/hangover/"
+        },
+        {
+          "title": "Advanced Medicine",
+          "description": "NAD+, Myers Advanced Treatments, and other offerings.",
+          "imageUrl": "advanced.webp",
+          "link": "/advanced-medicine/"
+        },
+        {
+          "title": "NAD+ Shots and IV’s",
+          "description": "Boost Energy, Enhance Focus, and Support Cellular Regeneration with NAD+ Therapy.",
+          "imageUrl": "nadsmall.webp",
+          "link": "/nad/"
+        },
+        {
+          "title": "Hydration Drips",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageUrl": "hydration.webp",
+          "link": "/hydration/"
+        }
+      ],
+      "treatmentsPage": "weightloss-treatments"
+    },
+    {
+      "name": "hydration",
+      "phoneNumber": "+18329797034",
+      "path": "hydration",
+      "title": "Luxe Mobile IV",
+      "introHead": "ADVANCED IV HYDRATION THERAPY AT YOUR HOME",
+      "treatHead": "Hydration IV Treatment",
+      "introDesc": "Experience transformative drip IV hydration and wellness with our proprietary IV blends.",
+      "ctaBenefits": "7am to 11 pm appointments | time slots available within 1 HOUR",
+      "benefitsSubtext": "Benefits Subtext",
+      "tombstoneImage": "tombstone.webp",
+      "tombstoneAlt": "hydration IV treatment",
+      "seoTitle": "Mobile IV Hydration Therapy at Your Home | Luxe Mobile IV",
+      "helmet": {},
+      "seoDescription": "Revitalize your body with Mobile IV hydration therapy. Fast, effective relief from dehydration, fatigue, and more—delivered by licensed professionals.",
+      "treatmentsData": [
+        {
+          "title": "Hydration Drip",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageUrl": "hydration.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/aa3681eb-af2e-46ff-b631-050034120c50",
+          "price": "$150"
+        },
+        {
+          "title": "Group Hydration Drip (10+)",
+          "description": "Hydrate your team on-site. Combats dehydration with customizable add-ons during consult.",
+          "imageUrl": "grouphydration.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/72b8e3ad-5b61-40b4-87b2-c7e1989a0dc0",
+          "price": "$145"
+        },
+        {
+          "title": "Luxe Super Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "super.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/f1adb47c-e5de-43ae-93b1-a1abbeeb47fb",
+          "price": "$200"
+        },
+        {
+          "title": "Athletic Recovery Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "athletic.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/a57e8094-340c-46b7-987e-f5debbeb1a0a",
+          "price": "$200"
+        }
+      ],
+      "treatmentsPage": "hydration-treatments"
+    },
+    {
+      "name": "hydration",
+      "phoneNumber": "+18329797034",
+      "path": "advanced-iv-hydration",
+      "title": "Luxe Mobile IV",
+      "introHead": "ADVANCED IV HYDRATION THERAPY AT YOUR HOME",
+      "introDesc": "Experience transformative drip IV hydration and wellness with our proprietary IV blends.",
+      "ctaBenefits": "7am to 11 pm appointments | time slots available within 1 HOUR",
+      "benefitsSubtext": "Benefits Subtext",
+      "tombstoneImage": "tombstone.webp",
+      "seoTitle": "Mobile IV Hydration Therapy at Your Home | Luxe Mobile IV",
+      "helmet": {},
+      "seoDescription": "Revitalize your body with Mobile IV hydration therapy. Fast, effective relief from dehydration, fatigue, and more—delivered by licensed professionals.",
+      "treatmentsData": [
+        {
+          "title": "Hydration Drip",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageUrl": "hydration.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/aa3681eb-af2e-46ff-b631-050034120c50",
+          "price": "$150"
+        },
+        {
+          "title": "Group Hydration Drip (10+)",
+          "description": "Hydrate your team on-site. Combats dehydration with customizable add-ons during consult.",
+          "imageUrl": "grouphydration.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/72b8e3ad-5b61-40b4-87b2-c7e1989a0dc0",
+          "price": "$145"
+        },
+        {
+          "title": "Luxe Super Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "super.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/f1adb47c-e5de-43ae-93b1-a1abbeeb47fb",
+          "price": "$200"
+        },
+        {
+          "title": "Athletic Recovery Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "athletic.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/a57e8094-340c-46b7-987e-f5debbeb1a0a",
+          "price": "$200"
+        }
+      ],
+      "treatmentsPage": "hydration-treatments"
+    },
+    {
+      "name": "sickness",
+      "phoneNumber": "+18329797034",
+      "path": "sickness",
+      "title": "Luxe Mobile IV",
+      "introHead": "Start Feeling Better Fast with IV Drip",
+      "treatHead": "Effective IV Therapy Treatments for Fast Relief",
+      "introDesc": "Give your immune system some extra support.​ Fluids, ​electrolytes, vitamins, and everything your body needs.",
+      "ctaBenefits": "7am to 11 pm appointments | time slots available within 1 HOUR",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "IV Drip for Immunity, Cold, Flu, Food Poisoning Relief and more",
+      "helmet": {},
+      "tombstoneImage": "sicknesstomb",
+      "tombstoneAlt": "iv drip for flu",
+      "seoDescription": "Get fast relief with IV drip for flu, cold, migraines & food poisoning. Our IV therapy boosts immunity & helps with stomach virus & stomach flu symptoms.",
+      "treatmentsData": [
+        {
+          "title": "Cold/Flu Drip",
+          "description": "Full hydration and effective, immediate treatments for your cold and flu symptoms: fatigue, body aches, chills, and fever.",
+          "imageUrl": "cold.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/5f9d9a09-8bb6-4488-b33e-d018fd545a26",
+          "price": "$185"
+        },
+        {
+          "title": "Migraine Drip",
+          "description": "Full hydration and treatment for effective, immediate relief for migraines and symptoms.",
+          "imageUrl": "migraine.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/ae58fd13-4ae7-49f5-b74a-95711d899cc5",
+          "price": "$185"
+        },
+        {
+          "title": "Immunity Drip",
+          "description": "Stay proactive with the immunity drip, packed with essential vitamins to optimize your immune response.",
+          "imageUrl": "immunity.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/42663e40-0791-46b9-b518-fb3cbfa84e9d",
+          "price": "$185"
+        },
+        {
+          "title": "Immunity Plus Drip",
+          "description": "Enhance your defense with the Immunity Plus Drip, featuring a premium blend of vitamins and nutrients to maximize immune health.",
+          "imageUrl": "immunity+.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/3e24fab8-0afb-42dd-8ac3-5187d053ad98",
+          "price": "$350"
+        },
+        {
+          "title": "Stomach Bug Drip",
+          "description": "Full hydration and effective, immediate treatments for stomach bug symptoms: nausea, body aches, chills, and fever.",
+          "imageUrl": "stomach.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/42663e40-0791-46b9-b518-fb3cbfa84e9d",
+          "price": "$185"
+        },
+        {
+          "title": "Help Me Choose",
+          "description": "Not sure what the best drip is for you? Talk with one of our nurses on-site and get an expert opinion. Treatments are customized to your needs. No additional cost.",
+          "imageUrl": "nurse2.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/e6e5985a-0441-4ad3-a62b-0ab9af163c41",
+          "price": "$150+"
+        }
+      ],
+      "treatmentsPage": "sickness-treatments"
+    },
+    {
+      "name": "nad",
+      "phoneNumber": "+18329797034",
+      "path": "nad",
+      "title": "NAD+ IV Therapy and Shots | Luxe Mobile IV",
+      "introHead": "NAD+ IV Therapy & Shots – Revitalize Your Body & Mind",
+      "treatHead": "NAD IV Treatment Options for Enhanced Wellness",
+      "introDesc": "Boost your energy, improve focus, and support cellular health with NAD+ IV therapy and shots tailored to your needs.",
+      "ctaBenefits": "7am to 11pm appointments | Same-day NAD+ treatments available within 1 HOUR",
+      "benefitsSubtext": "Experience the rejuvenating benefits of NAD+ therapy from the comfort of your home.",
+      "seoTitle": "NAD+ IV Drip Therapy & Shots | Mobile IV Drip Treatment",
+      "helmet": {},
+      "tombstoneImage": "nadtomb.jpg",
+      "tombstoneAlt": "nad iv therapy houston",
+      "seoDescription": "Experience premium NAD+ IV Drip therapy & shots in USA. Trusted NAD IV treatment with great reviews. Boost energy, focus, and wellness today!",
+      "treatmentsData": [
+        {
+          "title": "NAD+ Shots",
+          "description": "Quick, targeted NAD+ shots (100–250 mg) to help boost energy, sharpen focus, and support cellular health—perfect for a fast wellness upgrade.",
+          "imageUrl": "nadsmall.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/f31bdb0e-c00b-40ef-ae85-0516d98e39da",
+          "price": "$150+"
+        },
+        {
+          "title": "NAD+ Drip",
+          "description": "NAD+ by IV for the best possible absorption. Starting at 250 mg. Additional NAD+ added for $75 per 100 mg up to 1000 mg total.",
+          "imageUrl": "nad.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/ab3aaf64-24d9-476f-ade8-427f9b90ccd7",
+          "price": "$250+"
+        }
+      ],
+      "treatmentsPage": "nad-treatments",
+      "faqData": [
+        {
+          "question": "What is NAD IV therapy?",
+          "answer": "NAD IV therapy delivers nicotinamide adenine dinucleotide directly into your bloodstream to boost energy, brain function, and cellular repair."
+        },
+        {
+          "question": "How long does a NAD IV session take?",
+          "answer": "A typical NAD IV session takes 1.5 to 3 hours, depending on dosage and individual response."
+        },
+        {
+          "question": "Is NAD therapy safe?",
+          "answer": "Yes, NAD therapy is generally safe when administered by professionals. Some may experience mild side effects like nausea or lightheadedness"
+        },
+        {
+          "question": "How often should I get NAD IV therapy?",
+          "answer": "Frequency varies by goal. For general wellness, 1–2 sessions per month may be ideal. Your provider can tailor a plan to your needs."
+        },
+        {
+          "question": "Do you offer mobile NAD IV therapy in Houston?",
+          "answer": "Yes! Luxe Mobile IV brings NAD IV therapy directly to your home, office, or hotel anywhere in Houston."
+        }
+      ]
+    },
+    {
+      "name": "workplacehydration",
+      "phoneNumber": "+18329797034",
+      "path": "workplacehydration",
+      "title": "Luxe Mobile IV",
+      "introHead": "Workplace Hydration",
+      "introDesc": "Fast-acting IV hydration for high-intensity groups, providing rapid relief from dehydration and enabling quick return to peak performance.",
+      "ctaBenefits": "7am to 11 pm appointments | time slots available within 1 HOUR",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Workplace Hydration | Luxe Mobile IV",
+      "tombstoneImage": "grouphydration",
+      "helmet": {},
+      "seoDescription": "Professional IV hydration for high-intensity groups, providing rapid relief from dehydration and enabling quick return to peak performance.",
+      "treatmentsData": [
+        {
+          "title": "Luxe Full Hydration IV",
+          "description": "Full hydration to help with dehydration. Add-ons available upon request during Physician consultation.",
+          "imageUrl": "workplace.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/aa3681eb-af2e-46ff-b631-050034120c50",
+          "price": "$150"
+        },
+        {
+          "title": "Luxe Group Hydration IV (10+)",
+          "description": "Hydrate your team on-site. Our group service combats dehydration symptoms, with customizable add-ons during consultation. Ideal for construction, HVAC, and other active jobsite workers.",
+          "imageUrl": "workplace.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/72b8e3ad-5b61-40b4-87b2-c7e1989a0dc0",
+          "price": "$145"
+        }
+      ],
+      "treatmentsPage": "workplace-hydration-treatments"
+    },
+    {
+      "name": "hydration-austin",
+      "phoneNumber": "+18329797034",
+      "path": "hydration/austin",
+      "title": "Luxe Mobile IV",
+      "introHead": "ADVANCED IV HYDRATION THERAPY SERVICE IN AUSTIN TX",
+      "treatHead": "Our Hydration IV Treatment",
+      "introDesc": "Experience transformative drip IV hydration and wellness with our proprietary IV blends.",
+      "ctaBenefits": "7am to 11 pm appointments | time slots available within 1 HOUR",
+      "benefitsSubtext": "Benefits Subtext",
+      "tombstoneImage": "tombstone.webp",
+      "tombstoneAlt": "iv hydration therapy austin",
+      "seoTitle": "IV Hydration Therapy in Austin TX | Book Now – We Come to You!",
+      "helmet": {},
+      "seoDescription": "Rehydrate fast with Luxe Mobile IV! Our hydration IV in Austin delivers fluids, vitamins & relief to your door. Book now – feel better, faster!",
+      "treatmentsData": [
+        {
+          "title": "Hydration Drip",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageUrl": "hydration.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/aa3681eb-af2e-46ff-b631-050034120c50",
+          "price": "$150"
+        },
+        {
+          "title": "Group Hydration Drip (10+)",
+          "description": "Hydrate your team on-site. Combats dehydration with customizable add-ons during consult.",
+          "imageUrl": "grouphydration.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/72b8e3ad-5b61-40b4-87b2-c7e1989a0dc0",
+          "price": "$145"
+        },
+        {
+          "title": "Luxe Super Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "super.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/f1adb47c-e5de-43ae-93b1-a1abbeeb47fb",
+          "price": "$200"
+        },
+        {
+          "title": "Athletic Recovery Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "athletic.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/a57e8094-340c-46b7-987e-f5debbeb1a0a",
+          "price": "$200"
+        }
+      ],
+      "treatmentsPage": "hydration-treatments",
+      "faqData": [
+        {
+          "question": "Q1: What is hydration IV therapy?",
+          "answer": "A: It's a fast, effective way to rehydrate your body by delivering fluids, vitamins, and electrolytes directly into your bloodstream."
+        },
+        {
+          "question": "Q2: How quickly does IV hydration work?",
+          "answer": "A: Most people feel refreshed and energized within 30–60 minutes after treatment."
+        },
+        {
+          "question": "Q3: Do you offer mobile IV hydration in Austin?",
+          "answer": "A: Yes! We bring hydration IV therapy directly to your home, office, or hotel in Austin."
+        },
+        {
+          "question": "Q4: Is IV hydration safe?",
+          "answer": "A: Absolutely. All treatments are administered by licensed medical professionals with your safety in mind."
+        },
+        {
+          "question": "Q5: What conditions can hydration IV help with?",
+          "answer": "A: It can relieve symptoms of dehydration, hangovers, fatigue, migraines, and more."
+        }
+      ]
+    },
+    {
+      "name": "hydration-houston",
+      "phoneNumber": "+18329797034",
+      "path": "hydration/houston",
+      "title": "Luxe Mobile IV",
+      "introHead": "IV Hydration Therapy in Houston, TX – At Your Home",
+      "treatHead": "Explore Our Treatments",
+      "introDesc": "Experience transformative drip IV hydration and wellness with our proprietary IV blends.",
+      "ctaBenefits": "7am to 11 pm appointments | time slots available within 1 HOUR",
+      "benefitsSubtext": "Benefits Subtext",
+      "tombstoneImage": "tombstone.webp",
+      "tombstoneAlt": "hydration iv houston",
+      "seoTitle": "IV Hydration Therapy in Houston, TX – Book Appointment Now!",
+      "helmet": {},
+      "seoDescription": "Experience the best IV hydration therapy in Houston, TX. Boost your energy and hydration – Book your appointment now for quick and effective therapy!",
+      "treatmentsData": [
+        {
+          "title": "Hydration Drip",
+          "description": "Full hydration drip to help prevent and manage symptoms of dehydration.",
+          "imageUrl": "hydration.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/aa3681eb-af2e-46ff-b631-050034120c50",
+          "price": "$150"
+        },
+        {
+          "title": "Group Hydration Drip (10+)",
+          "description": "Hydrate your team on-site. Combats dehydration with customizable add-ons during consult.",
+          "imageUrl": "grouphydration.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/72b8e3ad-5b61-40b4-87b2-c7e1989a0dc0",
+          "price": "$145"
+        },
+        {
+          "title": "Luxe Super Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "super.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/f1adb47c-e5de-43ae-93b1-a1abbeeb47fb",
+          "price": "$200"
+        },
+        {
+          "title": "Athletic Recovery Drip",
+          "description": "Boost cognitive function, nutritional balance, and support peak performance with the proprietary Luxe Super Drip.",
+          "imageUrl": "athletic.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/a57e8094-340c-46b7-987e-f5debbeb1a0a",
+          "price": "$200"
+        }
+      ],
+      "treatmentsPage": "hydration-treatments",
+      "faqData": [
+        {
+          "question": "What is hydration IV therapy?",
+          "answer": "A: It's a fast, effective way to rehydrate your body by delivering fluids, vitamins, and electrolytes directly into your bloodstream."
+        },
+        {
+          "question": "How Long Does an IV Hydration Session Take?",
+          "answer": "A typical session lasts 30 to 60 minutes, depending on the treatment and your needs."
+        },
+        {
+          "question": "How Soon Will I Feel Better After IV Hydration?",
+          "answer": "Many clients feel re-energized and hydrated almost immediately after the session!"
+        },
+        {
+          "question": "Is IV hydration safe?",
+          "answer": "Absolutely. All treatments are administered by licensed medical professionals with your safety in mind."
+        },
+        {
+          "question": "Can I Book Hydration IV Therapy at Home?",
+          "answer": "Absolutely! We offer convenient at-home hydration IV services, so you can relax while we come to you."
+        }
+      ]
+    },
+    {
+      "name": "nad-austin",
+      "phoneNumber": "+18329797034",
+      "path": "nad/austin",
+      "title": "NAD+ IV Therapy and Shots | Luxe Mobile IV",
+      "introHead": "Recharge with NAD IV Therapy in Austin, TX",
+      "treatHead": "Boost Energy, Focus & Wellness with NAD IV Treatments",
+      "introDesc": "Boost your energy, improve focus, and support cellular health with NAD+ IV therapy and shots tailored to your needs.",
+      "ctaBenefits": "7am to 11pm appointments | Same-day NAD+ treatments available within 1 HOUR",
+      "benefitsSubtext": "Experience the rejuvenating benefits of NAD+ therapy from the comfort of your home.",
+      "seoTitle": "NAD+ IV Therapy in Austin, TX | Boost Energy – Book Now",
+      "helmet": {},
+      "tombstoneImage": "nadtomb.jpg",
+      "tombstoneAlt": "nad iv therapy austin",
+      "seoDescription": "Revitalize your body with NAD IV therapy in Austin, TX. Boost energy, focus, and cellular health at home with Luxe Mobile IV. Book your session today!",
+      "treatmentsData": [
+        {
+          "title": "NAD+ Shots",
+          "description": "Quick, targeted NAD+ shots (100–250 mg) to help boost energy, sharpen focus, and support cellular health—perfect for a fast wellness upgrade.",
+          "imageUrl": "nadsmall.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/f31bdb0e-c00b-40ef-ae85-0516d98e39da",
+          "price": "$150+"
+        },
+        {
+          "title": "NAD+ Drip",
+          "description": "NAD+ by IV for the best possible absorption. Starting at 250 mg. Additional NAD+ added for $75 per 100 mg up to 1000 mg total.",
+          "imageUrl": "nad.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/ab3aaf64-24d9-476f-ade8-427f9b90ccd7",
+          "price": "$250+"
+        }
+      ],
+      "treatmentsPage": "nad-treatments",
+      "faqData": [
+        {
+          "question": "What are the benefits of NAD IV therapy?",
+          "answer": "Benefits include improved energy, mental clarity, mood balance, anti-aging support, and detoxification."
+        },
+        {
+          "question": "How often should I get NAD IV therapy?",
+          "answer": "Frequency varies by individual. Some benefit from weekly sessions, others opt for monthly maintenance."
+        },
+        {
+          "question": "Does NAD therapy help with addiction recovery?",
+          "answer": "Yes, NAD is often used to support recovery by reducing withdrawal symptoms and promoting brain healing."
+        },
+        {
+          "question": "Can I combine NAD with other IV treatments?",
+          "answer": "Absolutely! NAD can be combined with vitamins or hydration for enhanced wellness effects."
+        },
+        {
+          "question": "Is there any downtime after NAD therapy?",
+          "answer": "No downtime is needed. Most clients resume normal activities immediately after the session."
+        }
+      ]
+    },
+    {
+      "name": "nad-houston",
+      "phoneNumber": "+18329797034",
+      "path": "nad/houston",
+      "title": "NAD+ IV Therapy and Shots | Luxe Mobile IV",
+      "introHead": "Recharge with NAD+ IV Therapy in Houston, TX",
+      "treatHead": "NAD IV Drip Therapy Treatments",
+      "introDesc": "Boost your energy, improve focus, and support cellular health with NAD+ IV therapy and shots tailored to your needs.",
+      "ctaBenefits": "7am to 11pm appointments | Same-day NAD+ treatments available within 1 HOUR",
+      "benefitsSubtext": "Experience the rejuvenating benefits of NAD+ therapy from the comfort of your home.",
+      "seoTitle": "NAD IV Therapy in Houston, TX | Boost Performance – Book Now",
+      "helmet": {},
+      "tombstoneImage": "nadtomb.jpg",
+      "tombstoneAlt": "nad iv therapy houston",
+      "seoDescription": "Boost your performance with NAD IV Therapy in Houston. Recharge energy, improve focus, and enhance recovery. Book your session today for optimal results!",
+      "treatmentsData": [
+        {
+          "title": "NAD+ Shots",
+          "description": "Quick, targeted NAD+ shots (100–250 mg) to help boost energy, sharpen focus, and support cellular health—perfect for a fast wellness upgrade.",
+          "imageUrl": "nadsmall.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/f31bdb0e-c00b-40ef-ae85-0516d98e39da",
+          "price": "$150+"
+        },
+        {
+          "title": "NAD+ Drip",
+          "description": "NAD+ by IV for the best possible absorption. Starting at 250 mg. Additional NAD+ added for $75 per 100 mg up to 1000 mg total.",
+          "imageUrl": "nad.webp",
+          "ingredients": "lots of good stuff",
+          "link": "/city/ab3aaf64-24d9-476f-ade8-427f9b90ccd7",
+          "price": "$250+"
+        }
+      ],
+      "faqData": [
+        {
+          "question": "Who can benefit from NAD IV Therapy?",
+          "answer": "Anyone looking to improve energy levels, mental clarity, or athletic performance, or those recovering from illness or fatigue can benefit from NAD IV Therapy."
+        },
+        {
+          "question": "How often should I get NAD IV Therapy?",
+          "answer": "The frequency of treatments depends on individual goals, but many clients opt for sessions weekly or monthly for optimal results."
+        },
+        {
+          "question": "Will I feel immediate results after NAD IV Therapy?",
+          "answer": "Many clients report feeling more energized and mentally clear right after the treatment, though full benefits may take a few sessions."
+        },
+        {
+          "question": "Can NAD IV Therapy help with aging?",
+          "answer": "Yes, NAD+ has anti-aging benefits by promoting cell repair, improving energy, and supporting cognitive function."
+        },
+        {
+          "question": "Is NAD IV Therapy covered by insurance?",
+          "answer": "Currently, NAD IV Therapy is not typically covered by insurance, but we offer affordable pricing options to make it accessible."
+        }
+      ],
+      "treatmentsPage": "nad-treatments"
+    },
+    {
+      "name": "hangover-houston",
+      "phoneNumber": "+18329797034",
+      "path": "hangover/houston",
+      "title": "Luxe Mobile IV",
+      "introHead": "Hangover IV Houston – Fix Your Hangover in 30 Minutes",
+      "treatHead": "Hangover IV Drip Therapy for Fast Relief",
+      "introDesc": "An ER nurse comes to your house and administers advanced IV medicine to help you recover and treat serious symptoms including nausea, head aches, & weakness.",
+      "ctaBenefits": "$185 | 7 am to 11 pm | Arrival Within 1 hour of Booking*",
+      "benefitsSubtext": "Benefits Subtext",
+      "seoTitle": "Hangover IV Drip Therapy in Houston, TX | Luxe Mobile IV",
+      "helmet": {},
+      "tombstoneImage": "hangovertomb",
+      "tombstoneAlt": "hangover iv",
+      "seoDescription": "Recover fast with hangover IV drip therpay in Houston. Luxe Mobile IV brings hydration, vitamins & relief to your door. Book now for doorstep recovery!",
+      "treatmentsData": [
+        {
+          "title": "Hangover Relief",
+          "description": "From basic hydration to treatment of nausea, headaches, and other symptoms.",
+          "imageUrl": "hangover.webp",
+          "link": "/city/27aec72e-36ac-4aad-b769-b70c46759d6a",
+          "price": "$185"
+        },
+        {
+          "title": "Hangover Relief Plus",
+          "description": "Advanced formulation hydration treatment with additional options to assist with nausea, headaches, and other symptoms.",
+          "imageUrl": "hangover+.webp",
+          "link": "/city/98f4db9d-8089-448b-ad93-664f2473c2bd",
+          "price": "$250"
+        }
+      ],
+      "treatmentsPage": "city/27aec72e-36ac-4aad-b769-b70c46759d6a"
+    }
+  ]
+}

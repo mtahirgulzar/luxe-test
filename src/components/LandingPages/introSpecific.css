@@ -1,0 +1,111 @@
+.intro-desc{
+  color:rgb(9, 55, 31);
+  font-weight: 300;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column; /* Image below text on mobile */
+  align-items: center;
+  text-align: center;
+  color: #0f9e82; /* Adjust the color to match your brand */
+}
+
+.intro-content {
+  flex: 1;
+  padding: 20px;
+  padding-top: 72px;
+}
+.intro-content h1 {
+  font-size: 32px;
+  letter-spacing: 6px;
+  font-weight: 700;
+  line-height: 1;
+  margin-top:0px;
+}
+
+.intro-details {
+  margin: 20px 0;
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+.intro-buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically on mobile */
+  width: 100%;
+}
+
+#intro .gatsby-image-wrapper {
+  width: 100vw !important;
+}
+.intro-buttons button {
+  background-color: #ff403f; /* Button color */
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  cursor: pointer;
+  width:174px;
+  font-size: 14px;
+}
+
+.intro-image-specific img {
+  width: 100vw !important;
+  /* max-width: 320px; Adjust the size as needed */
+  height: auto;
+  max-height: 267px;
+  object-fit: cover;
+  margin-bottom: -9px;
+}
+
+@media (min-width: 768px) {
+  .intro-section {
+    flex-direction: row; /* Image on the right on desktop */
+  }
+
+  .intro-content, .intro-image {
+    flex-basis: 50%;
+  }
+
+  .intro-buttons {
+    flex-direction: row; /* Side by side buttons on desktop */
+    justify-content: center;
+  }
+
+  .intro-buttons button {
+    margin: 0 10px; /* Space between buttons on desktop */
+    font-size: 16px;
+  }
+
+  .intro-image-specific img {
+    max-width: 50vw !important; /* Full size image on desktop */
+    width:100%;
+    max-height: none; /* Full size image on desktop */
+  }
+
+  #intro .gatsby-image-wrapper{
+    max-width: 50vw;
+  }
+  #intro .gatsby-image-wrapper-constrained{
+    max-width: 50vw;
+  }
+  .intro-content h1 {
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top:0px;
+    max-width: 500px;
+    margin:auto
+  }
+
+  .intro-details {
+    margin: 20px 0;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  
+}

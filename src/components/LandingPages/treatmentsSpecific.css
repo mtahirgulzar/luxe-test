@@ -1,0 +1,336 @@
+/* treatmentsSpecific.css */
+
+.treatmentsSpecific {
+  background-color: rgb(15, 158, 130);
+  color: black;
+  text-align: center;
+}
+
+.treatmentsSpecific h2 {
+  /* color: rgb(15, 158, 130); */
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.treatmentsSpecific p {
+
+  /* padding-left: 30px; */
+  font-weight: 200;
+  padding-right: 30px;
+  margin-top: 0px;
+}
+
+.ingredientsLink{
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+.ingredientsLink:hover{
+  cursor: pointer;
+}
+
+.treatmentSpecific-cards {
+  color: white;
+  background-color: rgb(15, 158, 130);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 80px;
+  padding-top: 40px;
+  
+}
+
+.treatmentSpecific-card {
+  width: 300px;
+  border: 1px solid #ffffff;
+  background-color: rgb(15, 158, 130);
+
+  /* background-color: white; */
+  color: #09371f;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.treatmentSpecific-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0rem;
+}
+.treatmentSpecific-card-text-container{
+  padding: 20px;
+  padding-top: 0px;
+}
+.treatmentSpecific-card h3 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.treatmentSpecific-card p {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.treatmentSpecific-cards-wrapper {
+  
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 0px;
+  font-weight: 300;
+}
+
+.learn-more {
+  background-color: #ff4040;
+  color: white;
+}
+
+.book-now {
+  margin: auto;
+  background-color: #ff4040;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .treatmentSpecific-card {
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Layout the items horizontally */
+    align-items: center; /* Align items in the center vertically */
+    max-width: 100%; /* Ensure card does not overflow the screen width */
+    width: 95vw;
+    margin-bottom: 15px;
+  }
+
+  .treatmentSpecific-cards{
+    gap: 0px;
+    padding-top: 15px;
+    padding: 10px;
+  }
+  .treatmentSpecific-card img {
+    /* width: auto; */
+    height: 100px; /* Fixed height to maintain aspect ratio */
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0; /* Prevent the image from shrinking */
+  }
+  
+   
+
+  .treatmentSpecific-card-text-container {
+    padding: 1px; /* Provide some padding around the text */
+    margin-left: 10px; /* Add some space between the image and the text */
+    flex-grow: 1; /* Allow the text container to grow and fill the remaining space */
+  }
+  .treatmentSpecific-card-text-container p{
+    font-size: 12px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+    line-height: 1;
+  }
+
+
+  .buttons {
+    flex-direction: row; /* Align buttons side by side */
+    gap: 10px; /* Adjust the gap between buttons */
+  }
+
+  .buttons a{
+    margin-top: 0px;
+  }
+  button {
+    flex: 1; /* Allow buttons to share the available space */
+    margin-top: 0px;
+  }
+  .book-now{
+    margin-top: 0px !important;
+    padding: 5px 15px;
+  }
+  .treatmentSpecific-card h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+.treatmentsSpecific {
+  color: black;
+  text-align: center;
+}
+
+.treatmentsSpecific h2 {
+  /* color: rgb(15, 158, 130); */
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.treatmentsSpecific h3 {
+  color: rgb(15, 158, 130);
+}
+
+.treatmentsSpecific p {
+  font-weight: 200;
+  margin-top: 0px;
+  padding: 0 0px; /* Adjust padding as needed */
+}
+
+.treatmentSpecific-cards-wrapper {
+  max-width: 90vw; 
+  margin: 0 auto;
+}
+
+.treatmentSpecific-cards-wrapper {
+  /* Removed max-width and adjusted margin for better layout on desktop */
+  margin: 0 auto;
+  padding: 0px 0px; 
+}
+
+.treatmentSpecific-cards {
+  /* Removed background color and flex-wrap, adjusted gap and flex-direction */
+  display: flex;
+  gap: 40px; /* Spacing between cards */
+  /* background-color: white; */
+  
+}
+
+.treatmentSpecific-card {
+  border: 2px solid rgb(15, 158, 130);
+  display: flex;
+  /* width: calc(50% - 15px); */
+  width: 500px;
+  position: relative; /* Needed for background positioning */
+  background-color: white; /* Extend white background */
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.treatmentSpecific-card img{
+  height:100%;
+}
+
+.treatmentSpecific-card-text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  z-index: 1; /* Ensure text is above image */
+}
+
+.treatmentSpecific-img-container {
+  width: 42%;
+  height: 100%;
+}
+.treatmentSpecific-img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.treatmentSpecific-card h3 {
+  font-size: 24px;
+  margin: 5px 0 0; 
+  font-weight: 700;
+}
+
+.treatmentSpecific-card p {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0 0 8px; 
+}
+
+.treatmentSpecific-card .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.treatmentSpecific-card button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 0px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.treatmentSpecific-card a{
+  text-align: center;
+}
+
+.treatmentSpecific-card .book-now {
+  background-color: #ff4040;
+  color: white;
+}
+
+/* Media Query for Responsive Layout (Smaller Screens) */
+@media screen and (max-width: 768px) {
+  .ingredientsLink{
+    font-size: 80% !important;
+  }
+  .treatmentPrice{
+    font-size: 80%;
+    text-align: center;
+    padding-top:10px;
+  }
+  .treatmentSpecific-card {
+    display: flex;
+  }
+  .treatmentSpecific-card h3{
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .treatmentSpecific-card p{
+    font-size: 12px;
+  }
+  .treatmentSpecific-card img{
+    height:100%;
+  }
+  .treatmentSpecific-img-container .gatsby-image-wrapper {
+    height: 100% !important; /* Override with auto height and !important */
+    width: auto !important; /* Override with 100% width and !important */
+    display: flex;        
+    align-items: center;  
+    justify-content: center; 
+  }
+  .treatmentSpecific-img-container {
+    order: 1;
+  }
+
+  .treatmentSpecific-card-text-container {
+    margin-left: 0px;
+    padding: 10px 10px; /* Adjusted padding for better spacing */
+  }
+
+  .treatmentSpecific-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image covers the container */
+  }
+
+  .buttons a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .treatmentSpecific-card button{
+  font-size: 20px;
+}
+
+  .treatmentSpecific-cards {
+    gap: 10px; /* Reduced gap between cards on mobile */
+  }
+
+}
