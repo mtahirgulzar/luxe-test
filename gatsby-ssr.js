@@ -14,7 +14,7 @@ export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents, setHead
 
   // Add optimized font loading
   setHeadComponents([
-    // 1. Preconnect to Google Fonts
+    // 1. Preconnect to Google Fonts for faster loading
     <link 
       key="google-fonts-preconnect"
       rel="preconnect" 
@@ -27,10 +27,10 @@ export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents, setHead
       crossOrigin="anonymous"
     />,
     
-    // 2. Load font stylesheet normally (blocking but ensures font is available)
+    // 2. Simple, reliable font loading
     <link
       key="google-fonts-stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />,
   ]);
