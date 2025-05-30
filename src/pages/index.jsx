@@ -15,7 +15,6 @@ import JSONData from '../data/lpvariants.json';
 import servicesData from '../data/services.json';
 import AdCookie from '../components/General/AdCookie.js'
 import Locations from '../components/LandingPages/locations.jsx'
-import FontLoader from '../components/General/FontLoader.js'
 
 // add cookie tracking
 import { graphql } from 'gatsby'
@@ -124,7 +123,6 @@ const HomePage = ({ data, children, pageContext }) => {
 
   return (
     <>
-      <FontLoader />
       <NavBar pageContext={homePageData}/>
       <AdCookie />
 

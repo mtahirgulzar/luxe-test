@@ -1,0 +1,37 @@
+/* Self-hosted Prompt fonts (Option 2) */
+
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Prompt/Prompt-Regular.woff2') format('woff2'),
+       url('/fonts/Prompt/Prompt-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Prompt/Prompt-Medium.woff2') format('woff2'),
+       url('/fonts/Prompt/Prompt-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Prompt/Prompt-SemiBold.woff2') format('woff2'),
+       url('/fonts/Prompt/Prompt-SemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Prompt/Prompt-Bold.woff2') format('woff2'),
+       url('/fonts/Prompt/Prompt-Bold.woff') format('woff');
+  font-display: swap;
+} 

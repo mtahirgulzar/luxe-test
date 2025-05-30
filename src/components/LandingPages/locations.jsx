@@ -37,11 +37,15 @@ const Locations = () => {
         <div className="location-map-wrapper">
           {activeState === 'Colorado' ? <StaticImage
             loading="eager"
+            placeholder="blurred"
+            quality={ 100 }
             className="location-map-img"
             src="../../images/landing/Colorado.png"
             alt={`${activeState} service area map`}
           /> : <StaticImage
             loading="eager"
+            placeholder="blurred"
+            quality={ 100 }
             className="location-map-img"
             src="../../images/landing/Texas.png"
             alt={`${activeState} service area map`}

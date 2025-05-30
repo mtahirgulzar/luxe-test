@@ -14,16 +14,13 @@ export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents, setHead
 
   // Add optimized font loading
   setHeadComponents([
-    // Only preconnect - no blocking font CSS
-    <link 
-      key="google-fonts-preconnect"
-      rel="preconnect" 
-      href="https://fonts.googleapis.com" 
-    />,
-    <link 
-      key="google-fonts-preconnect-static"
-      rel="preconnect" 
-      href="https://fonts.gstatic.com" 
+    // Preload the critical Prompt font (Prompt-Regular.woff2) from your self-hosted folder (src/fonts/Prompt) for fast font loading.
+    <link
+      key="preload-prompt-400"
+      rel="preload"
+      as="font"
+      href="/fonts/Prompt/Prompt-Regular.woff2"
+      type="font/woff2"
       crossOrigin="anonymous"
     />,
   ]);
