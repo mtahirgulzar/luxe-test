@@ -9,8 +9,20 @@ import React from 'react';
 /**
  * @type {import('gatsby').GatsbySSR['onRenderBody']}
  */
-export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents }) => {
+export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents, setHeadComponents }) => {
   setHtmlAttributes({ lang: 'en' });
+
+  // Add font preload
+  setHeadComponents([
+    <link
+      key="prompt-font-preload"
+      rel="preload"
+      href="https://fonts.gstatic.com/s/prompt/v10/Va9dYFTYgd53ZjQBre4RIJ_Y5A.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+    />,
+  ]);
 
   setPostBodyComponents([
     <script

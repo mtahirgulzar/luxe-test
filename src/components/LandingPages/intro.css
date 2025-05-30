@@ -5,6 +5,8 @@
   text-align: center;
   color: #0f9e82; /* Adjust the color to match your brand */
   min-height: 750px;
+  content-visibility: auto;
+  contain-intrinsic-size: 750px;
 }
 .intro-desc{
   color:rgb(9, 55, 31);
@@ -14,6 +16,9 @@
   flex: 1;
   padding: 20px;
   padding-top: 72px;
+  /* Optimize paint performance */
+  will-change: transform;
+  transform: translateZ(0);
 }
 .intro-content h1 {
   font-size: 32px;
@@ -22,6 +27,13 @@
   line-height: 1;
   margin-top:0px;
   text-transform: uppercase;
+  /* Optimize paint performance */
+  will-change: transform;
+  transform: translateZ(0);
+  /* Add text-rendering optimization */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .intro-details {
