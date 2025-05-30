@@ -4,10 +4,10 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import introImageFallback from '../../images/tombstone.webp';
 import { getCityID, getPhoneNumber } from './cityUtils';
 
-const IntroSection = ({ pageContext, tombstone }) => {
+const IntroSection = ({ pageContext, tombstoneImage }) => {
   const [cityId, setCityId] = useState('1');
   const [phoneNumber, setPhoneNumber] = useState('+18329797034');
-  const optimizedTombstoneImage = getImage(tombstone);
+  const optimizedTombstoneImage = getImage(tombstoneImage);
   const [urlParams, setUrlParams] = useState('');
 
   useEffect(() => {

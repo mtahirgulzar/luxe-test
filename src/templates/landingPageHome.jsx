@@ -30,6 +30,11 @@ export const pageQuery = graphql`
         gatsbyImageData(width: 3000, layout: CONSTRAINED)
       }
     },
+    tombstoneImage: file(relativePath: { eq: "tombstone.webp" }) {
+      childImageSharp {
+        gatsbyImageData
+      }
+    }
   }
 `;
 
@@ -91,7 +96,7 @@ const HomePage = ({ data, children, pageContext }) => {
     <>
       <AdCookie />
       <NavBar pageContext={pageContext}/>
-      <Intro pageContext={pageContext}/>
+      <Intro pageContext={pageContext} tombstoneImage={data.tombstoneImage}/>
       <SocialProof/>
       <Treatments treatmentsData={pageContext.treatmentsData} pageContext={pageContext}/>
       <HowItWorks pageContext={pageContext}/>
