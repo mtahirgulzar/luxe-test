@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './reviews.css';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const testimonials = [
   {
@@ -40,7 +41,26 @@ const TestimonialsSection = () => {
               <path d="M20.3 40.8 0 20.5 20.3.2l.7.7L1.3 20.5 21 40.1z"></path>
             </svg>
             <div style={{ margin: 'auto' }}>
-              <img src={require(`../../images/${testimonials[currentTestimonial].image}`).default} alt={testimonials[currentTestimonial].name} className="testimonial-image" />
+              {testimonials[currentTestimonial].image === 'deandre.webp' && (
+                <StaticImage 
+                  src="../../images/deandre.webp"
+                  alt={testimonials[currentTestimonial].name}
+                  className="testimonial-image"
+                  layout="constrained"
+                  placeholder="blurred"
+                  formats={["auto", "webp", "avif"]}
+                />
+              )}
+              {testimonials[currentTestimonial].image === 'darvin.webp' && (
+                <StaticImage 
+                  src="../../images/darvin.webp"
+                  alt={testimonials[currentTestimonial].name}
+                  className="testimonial-image"
+                  layout="constrained"
+                  placeholder="blurred"
+                  formats={["auto", "webp", "avif"]}
+                />
+              )}
               <p className="testimonial-author">{testimonials[currentTestimonial].name}</p>
               <p className="testimonial-text">{testimonials[currentTestimonial].title}</p>
             </div>

@@ -27,12 +27,16 @@
   .exceptional-medicine__icon {
     /* Add styles for your icons here */
     margin-bottom: 20px;
+    width: 80px !important;
+    height: auto !important;
+    margin-left: 30px;
   }
   
-  .exceptional-medicine__icon img {
-    width: 80px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 30px;
+  .exceptional-medicine__icon img,
+  .exceptional-medicine__icon [data-gatsby-image-wrapper],
+  .exceptional-medicine__icon [data-gatsby-image-wrapper] img {
+    width: 80px !important; /* Adjust as needed */
+    height: auto !important; /* Maintain aspect ratio */
   }
 
   .exceptional-medicine__content {
@@ -60,10 +64,17 @@
   text-align: left; /* Ensure text is aligned to the left */
 }
 @media (max-width: 768px) {
-  .exceptional-medicine__icon img {
+  .exceptional-medicine__icon {
+    width: 50px !important;
+    height: auto !important;
     margin-left: 30px;
-    width: 50px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .exceptional-medicine__icon img,
+  .exceptional-medicine__icon [data-gatsby-image-wrapper],
+  .exceptional-medicine__icon [data-gatsby-image-wrapper] img {
+    width: 50px !important; /* Adjust as needed */
+    height: auto !important; /* Maintain aspect ratio */
   }
   
   .exceptional-medicine__grid {

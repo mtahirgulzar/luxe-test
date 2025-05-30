@@ -227,6 +227,46 @@
     height: auto;
   }
 
+  /* Ensure StaticImage wrapper respects original dimensions */
+  .testimonial-image[data-gatsby-image-wrapper] {
+    max-height: 50vh !important;
+    max-width: 80vw !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .testimonial-image [data-gatsby-image-wrapper] {
+    max-height: 50vh !important;
+    max-width: 80vw !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .testimonial-image img {
+    max-height: 50vh !important;
+    max-width: 80vw !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .testimonial-image-placeholder {
+    max-height: 50vh;
+    margin-top: 20px;
+    max-width: 80vw;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: 20px auto;
+  }
+
   @media (max-width: 768px) {
     .arrow-left {
         left: 5px; /* Adjust the left position as needed */
