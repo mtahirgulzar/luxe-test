@@ -14,13 +14,13 @@ export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents, setHead
 
   // Add optimized font loading
   setHeadComponents([
-    // Preload the critical Prompt font (Prompt-Regular.woff2) from your self-hosted folder (src/fonts/Prompt) for fast font loading.
+    // Preload the critical Prompt font (Prompt-Regular.ttf) from your self-hosted folder (src/fonts/Prompt) for fast font loading.
     <link
       key="preload-prompt-400"
       rel="preload"
       as="font"
-      href="/fonts/Prompt/Prompt-Regular.woff2"
-      type="font/woff2"
+      href="/fonts/Prompt/Prompt-Regular.ttf"
+      type="font/truetype"
       crossOrigin="anonymous"
     />,
   ]);

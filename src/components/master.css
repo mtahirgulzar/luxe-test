@@ -1,7 +1,4 @@
-/* Master CSS file with Google Fonts */
 
-/* Removed Google Fonts import (for Prompt) so that self-hosted Prompt fonts (from src/styles/fonts.css) are used instead. */
-/* (Old import was: @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap');) */
 
 html {
   scroll-behavior: smooth;
