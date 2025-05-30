@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './intro.css';
 // import introImage from '../../images/tombstone.webp';
 import { getCityID, getPhoneNumber } from './cityUtils';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-const IntroSection = ({ pageContext }) => {
+const IntroSection = ({ pageContext,tombstoneImage }) => {
   const [phoneNumber, setPhoneNumber] = useState('+18329797034');
 
   useEffect(() => {
@@ -53,12 +54,14 @@ const IntroSection = ({ pageContext }) => {
         </div>
       </div>
       <div className="intro-image">
-        <img
+        {/* <img
           src={require(`../../images/${pageContext.tombstoneImage}`).default}
           alt={pageContext.tombstoneAlt || 'Luxe Mobile IV'}
           height="705"
           width="695"
-        />
+        /> */}
+        <GatsbyImage image={getImage(tombstoneImage)} alt={pageContext.tombstoneAlt || 'Luxe Mobile IV'}   height="705"
+          width="695" style={{ textAlign: 'center' }}/>
       </div>
     </div>
   );
