@@ -1,22 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900&display=swap');
-/* @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap'); */
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif; */
-  font-family: "Prompt", sans-serif !important;
+  font-family: "Prompt", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-display: swap;
-  src: local('Pacifico Regular'), local('Pacifico-Regular'),
-  url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
-    format('woff2');
 }
 
 h5{

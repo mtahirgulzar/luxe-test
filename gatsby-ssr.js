@@ -9,29 +9,79 @@ import React from 'react';
 /**
  * @type {import('gatsby').GatsbySSR['onRenderBody']}
  */
-export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents }) => {
+export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents, setHeadComponents }) => {
   setHtmlAttributes({ lang: 'en' });
+
+  // Add optimized font loading
+  setHeadComponents([
+    // 1. Preconnect to Google Fonts
+    <link 
+      key="google-fonts-preconnect"
+      rel="preconnect" 
+      href="https://fonts.gstatic.com" 
+      crossOrigin="anonymous"
+    />,
+    
+    // 2. Preload the font stylesheet
+    <link
+      key="google-fonts-preload"
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900&display=swap"
+    />,
+    
+    // 3. Load font non-blocking
+    <link
+      key="google-fonts-stylesheet"
+      href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+      media="print"
+      onLoad="this.media='all'"
+    />,
+    
+    // Noscript fallback for fonts
+    <noscript key="google-fonts-noscript">
+      <link
+        href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>,
+    
+    // 4. Preload master.css
+    <link
+      key="master-css-preload"
+      rel="preload"
+      as="style"
+      href="/master.css"
+      onLoad="this.onload=null;this.rel='stylesheet'"
+    />,
+    
+    // Noscript fallback for master.css
+    <noscript key="master-css-noscript">
+      <link rel="stylesheet" href="/master.css" />
+    </noscript>
+  ]);
 
   setPostBodyComponents([
     <script
-    key="whatconverts-script"
-    dangerouslySetInnerHTML={{
-      __html: `
-        var $wc_load=function(a){return JSON.parse(JSON.stringify(a))},$wc_leads=$wc_leads||{doc:{url:$wc_load(document.URL),ref:$wc_load(document.referrer),search:$wc_load(location.search),hash:$wc_load(location.hash)}};
-        
-        function loadWhatConvertsScript() {
-          var script = document.createElement('script');
-          script.src = '//s.ksrndkehqnwntyxlhgto.com/112116.js';
-          script.async = true;
-          document.body.appendChild(script);
-        }
-        
-        window.addEventListener('load', function() {
-          setTimeout(loadWhatConvertsScript, 1000); // Adjust the delay as needed
-        });
-      `,
-    }}
-  />,
+      key="whatconverts-script"
+      dangerouslySetInnerHTML={{
+        __html: `
+          var $wc_load=function(a){return JSON.parse(JSON.stringify(a))},$wc_leads=$wc_leads||{doc:{url:$wc_load(document.URL),ref:$wc_load(document.referrer),search:$wc_load(location.search),hash:$wc_load(location.hash)}};
+          
+          function loadWhatConvertsScript() {
+            var script = document.createElement('script');
+            script.src = '//s.ksrndkehqnwntyxlhgto.com/112116.js';
+            script.async = true;
+            document.body.appendChild(script);
+          }
+          
+          window.addEventListener('load', function() {
+            setTimeout(loadWhatConvertsScript, 1000); // Adjust the delay as needed
+          });
+        `,
+      }}
+    />,
     // <script
     //   key="livechat-script"
     //   dangerouslySetInnerHTML={{
