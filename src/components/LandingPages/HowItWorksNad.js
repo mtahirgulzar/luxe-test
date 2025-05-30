@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './howItWorks.css';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const HowItWorks = (pagecontext) => {
   const [urlParams, setUrlParams] = useState('');
@@ -69,7 +70,15 @@ const HowItWorks = (pagecontext) => {
       </p>
       <div className="contentSection">
         <div className="imageSectionWorks">
-          <img src={require('../../images/howItWorks.webp').default} alt="Nurse Opening Door" className="imageWorks" />
+          <StaticImage
+            src="../../images/howItWorks.webp" 
+            alt="Nurse Opening Door" 
+            className="imageWorks"
+            objectFit="cover"
+            layout="fullWidth"
+            placeholder="blurred"
+            formats={["auto", "webp", "avif"]}
+          />
         </div>
         <div className="stepsSection">
           {steps.map((step, index) => (

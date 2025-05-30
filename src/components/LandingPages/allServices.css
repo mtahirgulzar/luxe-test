@@ -31,9 +31,29 @@
   margin-bottom: 0px;
 }
 
-.service-image img {
+.service-image {
   width: 100%;
   max-width: 150px;
+}
+
+.service-image img,
+.service-image .gatsby-image-wrapper {
+  width: 100% !important;
+  max-width: 150px !important;
+  height: auto !important;
+}
+
+.image-placeholder {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
 }
 
 .service-details {

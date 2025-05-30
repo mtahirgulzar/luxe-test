@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './exceptionalMedicine.css';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const ExceptionalMedicine = ({ pageContext }) => {
   const [urlParams, setUrlParams] = useState('');
@@ -32,7 +33,7 @@ const ExceptionalMedicine = ({ pageContext }) => {
       <div className="exceptional-medicine__grid">
         <div className="exceptional-medicine__card">
           <div className="exceptional-medicine__icon">
-            <img src={require('../../images/relief.webp').default} alt="relief icon" />
+            <StaticImage src="../../images/relief.webp" alt="relief icon" width={100} height={100} /> 
           </div>
           <div className="exceptional-medicine__content">
             <div className="exceptional-medicine__subheading">Fast Relief</div>
@@ -41,7 +42,7 @@ const ExceptionalMedicine = ({ pageContext }) => {
         </div>
         <div className="exceptional-medicine__card">
           <div className="exceptional-medicine__icon">
-            <img src={require('../../images/energy.webp').default} alt="energy icon" />
+            <StaticImage src="../../images/energy.webp" alt="energy icon" width={100} height={100} /> 
           </div>
           <div className="exceptional-medicine__content">
             <div className="exceptional-medicine__subheading">Bounce Back Faster</div>
@@ -52,7 +53,7 @@ const ExceptionalMedicine = ({ pageContext }) => {
         </div>
         <div className="exceptional-medicine__card">
           <div className="exceptional-medicine__icon">
-            <img src={require('../../images/brain.webp').default} alt="brain icon" />
+            <StaticImage src="../../images/brain.webp" alt="brain icon" width={100} height={100} /> 
           </div>
           <div className="exceptional-medicine__content">
             <div className="exceptional-medicine__subheading">Cutting Edge</div>
@@ -63,7 +64,7 @@ const ExceptionalMedicine = ({ pageContext }) => {
         </div>
         <div className="exceptional-medicine__card">
           <div className="exceptional-medicine__icon">
-            <img src={require('../../images/pestle.webp').default} alt="pestle icon" />
+            <StaticImage src="../../images/pestle.webp" alt="pestle icon" width={100} height={100} /> 
           </div>
           <div className="exceptional-medicine__content">
             <div className="exceptional-medicine__subheading">Customizable</div>
