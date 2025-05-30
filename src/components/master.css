@@ -1,7 +1,7 @@
 /* Master CSS file with Google Fonts */
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap');
+/* Removed Google Fonts import (for Prompt) so that self-hosted Prompt fonts (from src/styles/fonts.css) are used instead. */
+/* (Old import was: @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap');) */
 
 html {
   scroll-behavior: smooth;
@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Prompt", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: Prompt, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
