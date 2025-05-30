@@ -54,12 +54,6 @@ const IntroSection = ({ pageContext,tombstoneImage }) => {
         </div>
       </div>
       <div className="intro-image">
-        {/* <img
-          src={require(`../../images/${pageContext.tombstoneImage}`).default}
-          alt={pageContext.tombstoneAlt || 'Luxe Mobile IV'}
-          height="705"
-          width="695"
-        /> */}
         <GatsbyImage image={getImage(tombstoneImage)} alt={pageContext.tombstoneAlt || 'Luxe Mobile IV'}   height="705"
           width="695" style={{ textAlign: 'center' }}/>
       </div>

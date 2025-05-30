@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { navigate } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { getCityID, getCityName } from './cityUtils';
 
 const SocialProofBanner = () => {
@@ -40,14 +41,14 @@ const SocialProofBanner = () => {
       <p>{cityName} HIGHEST RATED DRIP IV SERVICE</p>
       <div className="star-rating" style={{ display: 'block' }}>
         <div className="stars" style={{ display: 'block' }}>
-          <img src={require('../../images/gold-star.svg').default} alt="Gold star" style={{ width: '30px', height: '30px' }} />
-          <img src={require('../../images/gold-star.svg').default} alt="Gold star" style={{ width: '30px', height: '30px' }} />
-          <img src={require('../../images/gold-star.svg').default} alt="Gold star" style={{ width: '30px', height: '30px' }} />
-          <img src={require('../../images/gold-star.svg').default} alt="Gold star" style={{ width: '30px', height: '30px' }} />
-          <img src={require('../../images/gold-star.svg').default} alt="Gold star" style={{ width: '30px', height: '30px' }} />
+          <StaticImage src="../../images/gold-star.svg" alt="Gold star" width={30} height={30} />
+          <StaticImage src="../../images/gold-star.svg" alt="Gold star" width={30} height={30} />
+          <StaticImage src="../../images/gold-star.svg" alt="Gold star" width={30} height={30} />
+          <StaticImage src="../../images/gold-star.svg" alt="Gold star" width={30} height={30} />
+          <StaticImage src="../../images/gold-star.svg" alt="Gold star" width={30} height={30} />
         </div>
         <div className="google-logo" style={{ display: 'block' }}>
-          <img src={require('../../images/google-logo.webp').default} alt="Google logo" style={{ width: 'auto', height: '30px' }} />
+          <StaticImage src="../../images/google-logo.webp" alt="Google logo"  height={30}  />
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import React, { useState, useEffect } from 'react';
 
 const SocialProofBanner = () => {
@@ -11,7 +12,7 @@ const SocialProofBanner = () => {
         const containerWidth = container.offsetWidth;
         const iconWidth = icons[0].offsetWidth;
         const availableSpace = containerWidth - (4 * iconWidth);
-        
+
         setShowFifthIcon(availableSpace >= iconWidth);
       }
     };
@@ -24,15 +25,16 @@ const SocialProofBanner = () => {
 
   return (
     <div className="social-proof-banner">
-      <p style={{ fontWeight: '300' }}>WEIGHT LOSS INJECTIONS FEATURED IN 3,000 ARTICLES <br/>Find out why they are wildly popular.</p>
+      <p style={{ fontWeight: '300' }}>WEIGHT LOSS INJECTIONS FEATURED IN 3,000 ARTICLES <br />Find out why they are wildly popular.</p>
       <div className="star-rating" style={{ display: 'block' }}>
         <div className="" style={{ display: 'block' }}>
-          <img src={require('../../images/insider.webp').default} className='networkIcon' alt="Gold star" style={{ width: '85px', height: '85px' }}/>
-          <img src={require('../../images/forbes.webp').default} className='networkIcon' alt="Gold star" style={{ width: '85px', height: '85px' }}/>
-          <img src={require('../../images/fox.webp').default} className='networkIcon' alt="Gold star" style={{ width: '85px', height: '85px' }}/>
-          <img src={require('../../images/nyt.webp').default} className='networkIcon' alt="Gold star" style={{ width: '85px', height: '85px' }}/>
+          <StaticImage src="../../images/insider.webp" className='networkIcon' alt="Gold star" width={85} height={85} />
+          <StaticImage src="../../images/forbes.webp" className='networkIcon' alt="Gold star" width={85} height={85} />
+          <StaticImage src="../../images/fox.webp" className='networkIcon' alt="Gold star" width={85} height={85} />
+          <StaticImage src="../../images/nyt.webp" className='networkIcon' alt="Gold star" width={85} height={85} />
           {showFifthIcon && (
-            <img src={require('../../images/rollingstones.webp').default} className='networkIcon' alt="Gold star" style={{ width: '85px', height: '85px' }}/>
+            <StaticImage src="../../images/rollingstones.webp" className='networkIcon' alt="Gold star" width={85} height={85} />
+
           )}
         </div>
       </div>
