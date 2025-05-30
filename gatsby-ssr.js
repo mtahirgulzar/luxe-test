@@ -18,48 +18,21 @@ export const onRenderBody = ({ setHtmlAttributes, setPostBodyComponents, setHead
     <link 
       key="google-fonts-preconnect"
       rel="preconnect" 
+      href="https://fonts.googleapis.com" 
+    />,
+    <link 
+      key="google-fonts-preconnect-static"
+      rel="preconnect" 
       href="https://fonts.gstatic.com" 
       crossOrigin="anonymous"
     />,
     
-    // 2. Preload the font stylesheet
-    <link
-      key="google-fonts-preload"
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900&display=swap"
-    />,
-    
-    // 3. Load font non-blocking
+    // 2. Load font stylesheet normally (blocking but ensures font is available)
     <link
       key="google-fonts-stylesheet"
-      href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
-      media="print"
-      onLoad="this.media='all'"
     />,
-    
-    // Noscript fallback for fonts
-    <noscript key="google-fonts-noscript">
-      <link
-        href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet"
-      />
-    </noscript>,
-    
-    // 4. Preload master.css
-    <link
-      key="master-css-preload"
-      rel="preload"
-      as="style"
-      href="/master.css"
-      onLoad="this.onload=null;this.rel='stylesheet'"
-    />,
-    
-    // Noscript fallback for master.css
-    <noscript key="master-css-noscript">
-      <link rel="stylesheet" href="/master.css" />
-    </noscript>
   ]);
 
   setPostBodyComponents([
