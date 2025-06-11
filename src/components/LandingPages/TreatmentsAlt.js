@@ -101,7 +101,12 @@ const Treatments = ({ pageContext }) => {
                 <p>{treatment.description}</p>
                 <div className="buttons">
                   <a href={getUrlWithParams(treatment.link)} style={{ textDecoration: 'none' }}>
-                    <button className="book-now">learn about  {treatment.title}</button>
+                    <button className="book-now"> {treatment.title === 'Sickness' && 'Sickness Relief'}
+                      {treatment.title === 'Hangover Relief' && 'Hangover IV'}
+                      {treatment.title === 'Advanced Medicine' && 'Advanced IV Therapy'}
+                      {treatment.title === 'NAD+ Shots and IV\'s' && 'NAD+ Therapy'}
+                      {treatment.title === 'Hydration Drips' && 'Hydration IV'}
+                      {!['Sickness', 'Hangover Relief', 'Advanced Medicine', 'NAD+ Shots and IV\'s', 'Hydration Drips'].includes(treatment.title) && `${treatment.title} Treatment`}</button>
                   </a>
                   <a href={getUrlWithParams(`${treatment.link}#treatments`)} style={{ textDecoration: 'none' }}>
                     <button className="book-now">Book Now</button>
