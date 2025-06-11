@@ -68,7 +68,7 @@ const Treatments = ({ treatmentsData, pageContext }) => {
                 <p>{treatment.description}</p>
                 <div className="buttons">
                   <a href={getUrlWithParams(treatment.link)} style={{ textDecoration: 'none' }}>
-                    <button className="book-now">Learn More</button>
+                    <button className="book-now">learn about  {treatment.title}</button>
                   </a>
                   {(treatment.link !== '/city/27aec72e-36ac-4aad-b769-b70c46759d6a')
                     ? <a href={getUrlWithParams(`${treatment.link}#treatments`)} style={{ textDecoration: 'none' }}>
